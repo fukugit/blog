@@ -1,0 +1,3 @@
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = https://github.com/fukugit/github-style.git

@@ -1,3 +1,14 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "github-style"
+
+[params]
+  author = "example"
+  description = "example"
+  github = "example"
+  twitter = "example"
+  email = "example@domain.com"
+  utterances = "example/example.github.io"
+  avatar = "https://example.com/images/avatar.png"
+  url = "https://example.com"
