@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2019 13:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 13:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>楽観ロックと悲観ロック</title>
+      <link>https://fukugit.github.io/blog/posts/2019-12-04/</link>
+      <pubDate>Wed, 04 Dec 2019 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2019-12-04/</guid>
+      <description>&lt;p&gt;楽観ロックと悲観ロックを一言で&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>2019-12-02</title>
