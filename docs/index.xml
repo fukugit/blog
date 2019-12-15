@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
     <link>https://fukugit.github.io/blog/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja-JP</language>
     <lastBuildDate>Sun, 08 Dec 2019 13:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -45,6 +45,19 @@
       
       <guid>https://fukugit.github.io/blog/posts/2019-12-02/</guid>
       <description>&lt;p&gt;今日やったこと(IT関係だけ)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://fukugit.github.io/blog/about/</link>
+      <pubDate>Tue, 22 Oct 2019 18:46:47 +0800</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/about/</guid>
+      <description>I&#39;m web programmer, I especially prefer Java.
+Hobby Photo I like taking the photo and editing it with PhotoShop.
+Photo Gallery
+BaseBall I often go the stadium to watch the baseball game then take a diary for baseball game I watched.
+BaseBall Game Diary</description>
     </item>
     
   </channel>

@@ -1,13 +1,13 @@
 baseURL = "https://fukugit.github.io/blog/"
-languageCode = "en-us"
+languageCode = "ja-JP"
 title = "Blog"
 theme = "github-style"
 
 [params]
-  author = "fukugit"
+  author = "fukuro"
   description = "This is my blog. "
   github = "fukugit"
   twitter = "kurrow1"
   utterances = "github/github.github.io"
-  avatar = "https://avatars0.githubusercontent.com/u/8071941?s=400&u=28772e46b9aacd451a2e617a4937d54057348935&v=4"
+  avatar = "https://avatars1.githubusercontent.com/u/8071941?s=460&v=4"
   url = "https://github.com/fukugit"
