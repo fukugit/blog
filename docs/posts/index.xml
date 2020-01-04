@@ -17,8 +17,7 @@
       <pubDate>Sun, 08 Dec 2019 13:21:50 +0900</pubDate>
       
       <guid>https://fukugit.github.io/blog/posts/2019-12-07/</guid>
-      <description>&lt;p&gt;といっても、カンボジアじゃないよ。&lt;br&gt;
-代々木のカンボジア料理のお店へ行ってきた&lt;/p&gt;</description>
+      <description>&lt;p&gt;といっても、カンボジアじゃないよ。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,12 +39,12 @@
     </item>
     
     <item>
-      <title>2019-12-02</title>
+      <title>SimpleDateFormatをスレッドセーフで。</title>
       <link>https://fukugit.github.io/blog/posts/2019-12-02/</link>
       <pubDate>Sun, 01 Dec 2019 13:21:50 +0900</pubDate>
       
       <guid>https://fukugit.github.io/blog/posts/2019-12-02/</guid>
-      <description>&lt;p&gt;今日やったこと(IT関係だけ)&lt;/p&gt;</description>
+      <description>&lt;p&gt;SimpleDateFormat のスレッドセーフ対応版 Fastdateformatを使ってみる。&lt;/p&gt;</description>
     </item>
     
   </channel>
