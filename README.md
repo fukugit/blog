@@ -22,6 +22,8 @@ This project is consisted of Hugo, so it is necessary to install it first.
 
 5. `git submodule update --init --recursive`  
 
+6. `git checkout develop`  
+
 ## Running
 1. `cd blog`  
 
