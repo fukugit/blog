@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 Dec 2019 13:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 13:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020年の正月</title>
+      <link>https://fukugit.github.io/blog/posts/2020-02-21/</link>
+      <pubDate>Fri, 21 Feb 2020 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-02-21/</guid>
+      <description>&lt;p&gt;今年もいつもの正月。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>アンコールワットへ行ってきた</title>
