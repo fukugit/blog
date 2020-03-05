@@ -6,10 +6,19 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 25 Feb 2020 23:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2020 22:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fish ShellでJAVA_HOME設定</title>
+      <link>https://fukugit.github.io/blog/posts/2020-03-05/</link>
+      <pubDate>Thu, 05 Mar 2020 22:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-03-05/</guid>
+      <description>&lt;p&gt;MacにOpenJDKをインストールして、Fish ShellにJAVA_HOMEを設定する方法。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>鮫洲</title>
