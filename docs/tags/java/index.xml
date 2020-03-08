@@ -13,19 +13,19 @@
     
     <item>
       <title>Fish ShellでJAVA_HOME設定</title>
-      <link>https://fukugit.github.io/blog/posts/2020-03-05/</link>
+      <link>https://fukugit.github.io/blog/posts/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link>
       <pubDate>Thu, 05 Mar 2020 22:21:50 +0900</pubDate>
       
-      <guid>https://fukugit.github.io/blog/posts/2020-03-05/</guid>
+      <guid>https://fukugit.github.io/blog/posts/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid>
       <description>&lt;p&gt;MacにOpenJDKをインストールして、Fish ShellにJAVA_HOMEを設定する方法。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>SimpleDateFormatをスレッドセーフで。</title>
-      <link>https://fukugit.github.io/blog/posts/2019-12-02/</link>
+      <link>https://fukugit.github.io/blog/posts/2019-12-02-simpledateformat/</link>
       <pubDate>Sun, 01 Dec 2019 13:21:50 +0900</pubDate>
       
-      <guid>https://fukugit.github.io/blog/posts/2019-12-02/</guid>
+      <guid>https://fukugit.github.io/blog/posts/2019-12-02-simpledateformat/</guid>
       <description>&lt;p&gt;SimpleDateFormat のスレッドセーフ対応版 Fastdateformatを使ってみる。&lt;/p&gt;</description>
     </item>
     

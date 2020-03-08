@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>楽観ロックと悲観ロック - Blog</title>
+	<title>GitHubでForkしてPR出すまで - Blog</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
@@ -36,21 +36,24 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">楽観ロックと悲観ロック</h1>
+			<h1 class="post__title">GitHubでForkしてPR出すまで</h1>
 			
 		</header><div class="content post__content clearfix">
-			<p>楽観ロックと悲観ロックを一言で</p>
-<h2 id="heading">楽観ロック</h2>
-<p>Update時にVersionをチェック</p>
-<h2 id="heading-1">悲観ロック</h2>
-<p>SELECT 〜 FOR UPDATE</p>
+			<p>一度でいいからPRを出してみたい</p>
+<h2 id="heading">参考にするサイト</h2>
+<p>いつか自分でまとめたい。<br>
+<a href="http://kik.xii.jp/archives/179">http://kik.xii.jp/archives/179</a></p>
+<h2 id="heading-1">重要なこと</h2>
+<p>Fork元のリポジトリをaddして、自分のブランチへマージすること。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">git remote add upstream https<span style="color:#f92672">:</span><span style="color:#75715e">//github.com/XXXXX
+</span></code></pre></div>
 		</div>
 		<footer class="post__footer">
 			
 <div class="post__tags tags clearfix">
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/db/" rel="tag">db</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/git/" rel="tag">git</a></li>
 	</ul>
 </div>
 		</footer>
@@ -74,14 +77,14 @@
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-03-05/">Fish ShellでJAVA_HOME設定</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-25/">鮫洲</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-24/">赤羽</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-21/">2020年の正月</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-07/">アンコールワットへ行ってきた</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-05/">GitHubでForkしてPR出すまで</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-04/">楽観ロックと悲観ロック</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-02/">SimpleDateFormatをスレッドセーフで。</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/">Fish ShellでJAVA_HOME設定</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-25-%E9%AE%AB%E6%B4%B2/">鮫洲</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-24-%E8%B5%A4%E7%BE%BD/">赤羽</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2020-02-21-%E5%BA%83%E5%B3%B6%E3%81%AE%E6%AD%A3%E6%9C%88/">2020年の正月</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-07-%E3%82%AB%E3%83%B3%E3%83%9B%E3%82%99%E3%82%B7%E3%82%99%E3%82%A2%E6%96%99%E7%90%86/">アンコールワットへ行ってきた</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-05-pr%E5%87%BA%E3%81%97%E6%96%B9/">GitHubでForkしてPR出すまで</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-04-%E6%A5%BD%E8%A6%B3%E3%83%AD%E3%83%83%E3%82%AF%E3%81%A8%E6%82%B2%E8%A6%B3%E3%83%AD%E3%83%83%E3%82%AF/">楽観ロックと悲観ロック</a></li>
+			<li class="widget__item"><a class="widget__link" href="/blog/posts/2019-12-02-simpledateformat/">SimpleDateFormatをスレッドセーフで。</a></li>
 		</ul>
 	</div>
 </div>
