@@ -27,7 +27,7 @@ theme = "mainroad"
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "right"  # Configure layout for list pages
-  single = true # シングルページでサイドカラムを出すか出さないか。今は出すよ。
+  single = false # シングルページでサイドカラムを出すか出さないか。今は出さないよ。
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
