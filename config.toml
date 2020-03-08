@@ -1,7 +1,9 @@
+# このテーマの設定
+# https://github.com/vimux/mainroad/
 baseURL = "https://fukugit.github.io/blog/"
 languageCode = "ja-JP"
 title = "Blog"
-theme = "github-style"
+theme = "mainroad"
 
 [params]
   author = "fukuro"
@@ -11,3 +13,35 @@ theme = "github-style"
   utterances = "github/github.github.io"
   avatar = "https://avatars1.githubusercontent.com/u/8071941?s=460&v=4"
   url = "https://github.com/fukugit"
+
+  subtitle = "Just another site" # Subtitle of your site. Used in site header
+  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "kurrow1"
+  github = "fukugit"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = true # シングルページでサイドカラムを出すか出さないか。今は出すよ。
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+## GitHub風のテーマの設定
+# baseURL = "https://fukugit.github.io/blog/"
+# languageCode = "ja-JP"
+# title = "Blog"
+# theme = "github-style"
+#
+# [params]
+#  author = "fukuro"
+#  description = "This is my blog. "
+#  github = "fukugit"
+#  twitter = "kurrow1"
+#  utterances = "github/github.github.io"
+#  avatar = "https://avatars1.githubusercontent.com/u/8071941?s=460&v=4"
+#  url = "https://github.com/fukugit"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ブログ on Blog</title>
+    <link>https://fukugit.github.io/blog/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in ブログ on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Tue, 25 Feb 2020 23:21:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://fukugit.github.io/blog/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>鮫洲</title>
+      <link>https://fukugit.github.io/blog/posts/2020-02-25/</link>
+      <pubDate>Tue, 25 Feb 2020 23:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-02-25/</guid>
+      <description>&lt;p&gt;2019年の年末に免許更新で鮫洲に行ってきた。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>赤羽</title>
+      <link>https://fukugit.github.io/blog/posts/2020-02-24/</link>
+      <pubDate>Mon, 24 Feb 2020 18:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-02-24/</guid>
+      <description>&lt;p&gt;十条から赤羽を散策してきた。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2020年の正月</title>
+      <link>https://fukugit.github.io/blog/posts/2020-02-21/</link>
+      <pubDate>Fri, 21 Feb 2020 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-02-21/</guid>
+      <description>&lt;p&gt;今年もいつもの正月。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アンコールワットへ行ってきた</title>
+      <link>https://fukugit.github.io/blog/posts/2019-12-07/</link>
+      <pubDate>Sun, 08 Dec 2019 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2019-12-07/</guid>
+      <description>&lt;p&gt;といっても、カンボジアじゃないよ。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
