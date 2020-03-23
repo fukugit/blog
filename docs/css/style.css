@@ -709,6 +709,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	font-size: .75rem;
 	line-height: 1;
 	color: #fff;
+	margin-top: 80px;
 }
 
 .tags__list {
