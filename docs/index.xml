@@ -6,10 +6,19 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 09 Mar 2020 13:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 23:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在宅ワーク１週間経過</title>
+      <link>https://fukugit.github.io/blog/posts/2020-04-13-%E5%9C%A8%E5%AE%85/</link>
+      <pubDate>Mon, 13 Apr 2020 23:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-04-13-%E5%9C%A8%E5%AE%85/</guid>
+      <description>&lt;p&gt;2019年のコロナショック。在宅ワーク１週間が経過した。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>sedでタブと先頭スペースを削除する方法</title>
