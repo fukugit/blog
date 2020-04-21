@@ -6,10 +6,19 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 13 Apr 2020 23:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 23:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在宅ワーク2週間経過</title>
+      <link>https://fukugit.github.io/blog/posts/2020-04-21-%E5%9C%A8%E5%AE%852%E9%80%B1/</link>
+      <pubDate>Mon, 20 Apr 2020 23:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/2020-04-21-%E5%9C%A8%E5%AE%852%E9%80%B1/</guid>
+      <description>&lt;p&gt;2019年のコロナショック。在宅ワーク2週間が経過した。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>在宅ワーク１週間経過</title>
