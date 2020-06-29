@@ -13,10 +13,10 @@
     
     <item>
       <title>sedでタブと先頭スペースを削除する方法</title>
-      <link>https://fukugit.github.io/blog/posts/2020-03-09-sed/</link>
+      <link>https://fukugit.github.io/blog/posts/shell/2020-03-09-sed/</link>
       <pubDate>Mon, 09 Mar 2020 13:21:50 +0900</pubDate>
       
-      <guid>https://fukugit.github.io/blog/posts/2020-03-09-sed/</guid>
+      <guid>https://fukugit.github.io/blog/posts/shell/2020-03-09-sed/</guid>
       <description>&lt;p&gt;sedを使ってファイル中のタブと先頭スペースを削除する方法です。&lt;/p&gt;</description>
     </item>
     

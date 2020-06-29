@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ja-JP">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Gitまとめ - Blog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/blog/css/style.css">
+	
+	<link rel="shortcut icon" href="/blog/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/blog/" title="Blog" rel="home">
+				<div class="logo__title">Blog</div>
+				
+			</a>
+		</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Gitまとめ</h1>
+			
+		</header><div class="content post__content clearfix">
+			<p>Gitまとめアレコレ</p>
+<h1 id="heading">■ログの見方</h1>
+<h2 id="git-log">Git logについてまずは公式を見よう。</h2>
+<p>公式サイトのログについての記述は<a href="https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E5%B1%A5%E6%AD%B4%E3%81%AE%E9%96%B2%E8%A6%A7">コチラ</a>をまずは見てみよう。</p>
+<h2 id="log-1">log を1行で見る。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --oneline
+</code></pre></div><h2 id="log-">log の整形</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --pretty<span style="color:#f92672">=</span>format:<span style="color:#e6db74">&#34;%h %cd %cn &#39;%s&#39;&#34;</span>
+ <span style="color:#75715e">## フォーマット：   コミットID    日付    名前    コメント</span>
+ <span style="color:#75715e">## 例：252692d Fri Apr 5 08:11:59 2019 +0900 fukugit &#39;バリデータを追加しました。&#39;</span>
+</code></pre></div><p>その他のフォーマット項目については<a href="https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%E5%B1%A5%E6%AD%B4%E3%81%AE%E9%96%B2%E8%A6%A7">こちら</a>にまとめてあります。<br>
+「git log &ndash;pretty=format 用の便利なオプション」で検索したら一覧が出てきます。</p>
+<h2 id="log--1">log と一緒に修正箇所を全て表示する</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log -p
+</code></pre></div><h2 id="heading-1">修正されたファイル名のみを表示する(上記の簡易版)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log -stat
+</code></pre></div><h2 id="heading-2">特定の文字で検索する。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --grep<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx&#34;</span>
+</code></pre></div><h2 id="heading-3">コミットユーザで検索する。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --auther<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxxx&#34;</span>
+</code></pre></div><h2 id="heading-4">期間で検索する。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --after<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;2020/04/01&#39;</span>
+git log --before<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;2020/04/01&#39;</span>
+</code></pre></div><hr>
+<h1 id="stash">■Stash</h1>
+<h2 id="stash-1">stashする。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git add .
+git status
+git stash save <span style="color:#e6db74">&#34;一旦退避&#34;</span>
+git status
+</code></pre></div><h2 id="stash-2">stash一覧を見る</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git stash list
+</code></pre></div><h2 id="stash-3">stashの中身を見る</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git stash list
+git stash show <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span>    <span style="color:#75715e">## {0}はgit stash listで一覧化できます。</span>
+git stash show <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span> -P <span style="color:#75715e">## -P オプションで内容も見れます。</span>
+</code></pre></div><h2 id="stash-4">stashを消す</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git stash clear     <span style="color:#75715e">## 全消し</span>
+git stash drop <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span>  <span style="color:#75715e">## 一部消し</span>
+</code></pre></div><h2 id="stash-5">stashを適用する。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git stash apply <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span>
+git stash list  <span style="color:#75715e">## 適用してもstashは消えていません。</span>
+git stash drop <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span>
+</code></pre></div><h2 id="stash-">stash を適用して同時に消します。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git stash pop <span style="color:#f92672">{</span>0<span style="color:#f92672">}</span>
+</code></pre></div><hr>
+<h1 id="pull">■pull</h1>
+<h2 id="pullrebase">マージコミットを作らずにPullする方法（rebaseのようなイメージ）</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git pull -–rebase origin branchname
+</code></pre></div><p><a href="https://kray.jp/blog/git-pull-rebase/">このサイト</a>にgit pull と git pull &ndash;rebase の違いが書かれています。</p>
+<hr>
+<h1 id="rebasemerge">■Rebase(merge)</h1>
+<p>ハッシュ値が変わるので注意</p>
+<hr>
+<h1 id="heading-5">■差分チェック</h1>
+<h2 id="heading-6">ステージングに乗せる前にカレントブランチとの差分を確認する</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git diff --name-only
+</code></pre></div><h2 id="heading-7">ステージングに乗せた後にカレントブランチとの差分を確認する</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git diff --cached --name-only
+</code></pre></div><h2 id="heading-8">ブランチ間の差分を確認する(両方コミットする必要あり)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git diff master develop
+</code></pre></div><h2 id="heading-9">リモートブランチとの差分を確認する(両方コミットする必要あり)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git diff origin/dvelop develop
+</code></pre></div><hr>
+<h1 id="heading-10">■取り消し系</h1>
+<h2 id="git-add-">git add する前のファイル・ディレクトリを元に戻す。（追加したファイルは消せない）</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1： <span style="color:#75715e">## 適当なファイルを修正(addしない。)</span>
+2: git diff --name-only
+3: git checkout .
+</code></pre></div><h2 id="heading-11">追加したファイルを消すのはこちら。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1： <span style="color:#75715e">## 適当なファイルを追加(addしない。)</span>
+2: git clean -df 
+</code></pre></div><h2 id="heading-12">特定ファイルを１つ前に戻す</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: <span style="color:#75715e">## 適当なファイルを修正（コミットされているやつ）</span>
+2: git checkout HEAD Test.txt
+</code></pre></div><h2 id="git-add---commit-">git add . もしくは commit したあとに取り消す方法</h2>
+<p>resetは取り消しがコミットログに残らない。よってpushした後にやるとヤバい。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: git add .
+2: git diff --cached --name-only
+3: git reset --hard HEAD            <span style="color:#75715e">## addしたものが全て削除される。 git checkout . と同じ</span>
+4: git reset --hard HEAD^           <span style="color:#75715e">## 1つ前のコミットに戻る。今のコミットは削除される。)</span>
+5: git reset --hard vsd122414dsfsfe <span style="color:#75715e">## コミットIDを指定して、コミットIDのところまで戻る。コミットIDを削除するのではないので気を付けること</span>
+</code></pre></div><h2 id="resetreset">resetを取り消したい（resetしたけど元の状態に戻したい時用)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: git add .
+2: git commit -m <span style="color:#e6db74">&#34;test&#34;</span>
+3: git reset --hard HEAD      <span style="color:#75715e">## test commit を無かったことに。</span>
+4: git reset --hard ORIG_HEAD <span style="color:#75715e">## test commit を復活</span>
+</code></pre></div><h2 id="push">pushをした後に取り消す方法</h2>
+<p>revertはresetと違ってコミットログに残る。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: git add .
+2: git commit -m<span style="color:#e6db74">&#34;xxxxxxxxxx&#34;</span>
+3: git log                     <span style="color:#75715e">## 取り消し対象のコミットIDを取得</span>
+4: git revert vsd122414dsfsfe  <span style="color:#75715e">## 取り消し対象のコミットIDを指定</span>
+5: git push
+</code></pre></div><hr>
+<h1 id="heading-13">■コミット</h1>
+<h2 id="heading-14">直前のコミットに軽微なコミットを混ぜ込む方法。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: <span style="color:#75715e">## 適当なファイルを修正</span>
+2: git add .
+3: git commit --amend　<span style="color:#75715e">## 直前のコミットに１を混ぜ込む</span>
+</code></pre></div><h2 id="heading-15">コメント付きコミット(一番標準的なもの)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: <span style="color:#75715e">## 適当なファイルを修正</span>
+2: git add .
+3: git commit -m<span style="color:#e6db74">&#34;xxxxxxxxxx&#34;</span>
+</code></pre></div><hr>
+<h1 id="cherrypick">■CherryPick</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git cherry-pick 7c44840faab76c69c0b0a
+</code></pre></div><hr>
+<h1 id="heading-16">■削除</h1>
+<h2 id="heading-17">ローカルブランチの削除</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push -D branchname <span style="color:#75715e">##-Dはpush残しがあっても削除する強力なやつ</span>
+</code></pre></div><h2 id="heading-18">リモートブランチの削除</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push --delete origin feature/test
+</code></pre></div>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/blog/tags/git/" rel="tag">git</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+
+
+			</div>
+			
+		</div>
+		
+	</div>
+<script async defer src="/blog/js/menu.js"></script>
+</body>
+</html>
