@@ -3,7 +3,7 @@
 baseURL = "https://fukugit.github.io/blog/"
 languageCode = "ja-JP"
 title = "Blog"
-theme = "mainroad2"
+theme = "mainroad"
 publishDir = "docs"
 
 [params]

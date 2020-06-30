@@ -90,9 +90,31 @@ git stash drop <span style="color:#f92672">{</span>0<span style="color:#f92672">
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git pull -–rebase origin branchname
 </code></pre></div><p><a href="https://kray.jp/blog/git-pull-rebase/">このサイト</a>にgit pull と git pull &ndash;rebase の違いが書かれています。</p>
 <hr>
-<h1 id="rebasemerge">■Rebase(merge)</h1>
-<p>ハッシュ値が変わるので注意</p>
-<hr>
+<h1 id="merge">■merge</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git merge develop  <span style="color:#75715e">## マージしたらマージ分のコミットIDが付きます。これは他のコミットIDが変更されないことを意味します。一方でrebaseはコミットIDが変わってしまいます。</span>
+</code></pre></div><hr>
+<h1 id="rebase">■Rebase</h1>
+<h2 id="2">2つのブランチをマージします。</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git rebase develop
+git status             <span style="color:#75715e">## viで競合しているファイルを開いて、競合を解消します。</span>
+git add .              <span style="color:#75715e">## このタイミングだとまだどのブランチも選択した状態になっていないけど問題無しです。</span>
+git rebase --continue  <span style="color:#75715e">## このタイミングでブランチが選択された状態になります。</span>
+<span style="color:#75715e">## 注意！！！ rebaseをすることでコミットIDが変わってしまいます。すでにpush済みの場合はpush -f をしないといけなくなる可能性があるので気をつけて！</span>
+</code></pre></div><h2 id="rebase-">rebase の取り消し</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git rebase --abort
+</code></pre></div><h2 id="commit">複数commitの集約</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git rebase -i HEAD~2  <span style="color:#75715e">## 過去2つのコミットが対象です。</span>
+<span style="color:#75715e">## viが開きます。</span>
+pick 4eb0c37 コミットその１
+pick 8c5ca88 コミットその２
+<span style="color:#75715e">## viで消してしまいたいコミット（集約したいコミット）にs を付けて保存します。</span>
+pick 4eb0c37 コミットその１
+s 8c5ca88 コミットその２
+<span style="color:#75715e">## さらに別のvi が開くのでコミットコメントを整備します。ファイルを保存します。</span>
+コミットその１
+コミットその２ <span style="color:#75715e">## このコメントが不要なら消します。</span>
+<span style="color:#75715e">## これで終わりです。この方法もコミットIDが変わってしまうので気をつけて下さい。</span>
+</code></pre></div><hr>
 <h1 id="heading-5">■差分チェック</h1>
 <h2 id="heading-6">ステージングに乗せる前にカレントブランチとの差分を確認する</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git diff --name-only
@@ -135,11 +157,15 @@ git stash drop <span style="color:#f92672">{</span>0<span style="color:#f92672">
 5: git push
 </code></pre></div><hr>
 <h1 id="heading-13">■コミット</h1>
-<h2 id="heading-14">直前のコミットに軽微なコミットを混ぜ込む方法。</h2>
+<h2 id="heading-14">直前のコミットメッセージを修正</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git commit --amend -m<span style="color:#e6db74">&#34;ファイルを追加しました。&#34;</span>
+</code></pre></div><h2 id="heading-15">２つ以上前のコミットメッセージを修正</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">## 残念ながら git rebase -i を使うしかないです。</span>
+</code></pre></div><h2 id="heading-16">直前のコミットに軽微なコミットを混ぜ込む方法。</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: <span style="color:#75715e">## 適当なファイルを修正</span>
 2: git add .
 3: git commit --amend　<span style="color:#75715e">## 直前のコミットに１を混ぜ込む</span>
-</code></pre></div><h2 id="heading-15">コメント付きコミット(一番標準的なもの)</h2>
+</code></pre></div><h2 id="heading-17">コメント付きコミット(一番標準的なもの)</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">1: <span style="color:#75715e">## 適当なファイルを修正</span>
 2: git add .
 3: git commit -m<span style="color:#e6db74">&#34;xxxxxxxxxx&#34;</span>
@@ -147,10 +173,10 @@ git stash drop <span style="color:#f92672">{</span>0<span style="color:#f92672">
 <h1 id="cherrypick">■CherryPick</h1>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git cherry-pick 7c44840faab76c69c0b0a
 </code></pre></div><hr>
-<h1 id="heading-16">■削除</h1>
-<h2 id="heading-17">ローカルブランチの削除</h2>
+<h1 id="heading-18">■削除</h1>
+<h2 id="heading-19">ローカルブランチの削除</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push -D branchname <span style="color:#75715e">##-Dはpush残しがあっても削除する強力なやつ</span>
-</code></pre></div><h2 id="heading-18">リモートブランチの削除</h2>
+</code></pre></div><h2 id="heading-20">リモートブランチの削除</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push --delete origin feature/test
 </code></pre></div>
 		</div>
