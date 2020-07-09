@@ -6,10 +6,28 @@
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 01 Jul 2020 01:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 03:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vimまとめ</title>
+      <link>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</link>
+      <pubDate>Mon, 06 Jul 2020 03:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</guid>
+      <description>&lt;p&gt;Vimのまとめアレコレ。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>野球観戦日記</title>
+      <link>https://fukugit.github.io/blog/posts/blog/2020-07-06-%E9%87%8E%E7%90%83/</link>
+      <pubDate>Mon, 06 Jul 2020 00:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/blog/2020-07-06-%E9%87%8E%E7%90%83/</guid>
+      <description>&lt;p&gt;今まで行ってきた野球観戦をまとめています。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Web制作でお世話になるサイトのまとめ</title>
