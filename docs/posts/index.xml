@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 06 Jul 2020 03:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在宅ワーク108日目</title>
+      <link>https://fukugit.github.io/blog/posts/blog/2020-07-13-%E5%9C%A8%E5%AE%85108%E6%97%A5%E7%9B%AE/</link>
+      <pubDate>Mon, 13 Jul 2020 00:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/blog/2020-07-13-%E5%9C%A8%E5%AE%85108%E6%97%A5%E7%9B%AE/</guid>
+      <description>&lt;p&gt;3/27から始まった在宅ワークがついに108日目になりました。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CSSで勉強したことのまとめ</title>
+      <link>https://fukugit.github.io/blog/posts/matome/2020-07-10-css%E3%81%BE%E3%81%A8%E3%82%81/</link>
+      <pubDate>Fri, 10 Jul 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/matome/2020-07-10-css%E3%81%BE%E3%81%A8%E3%82%81/</guid>
+      <description>&lt;p&gt;色々勉強したことのまとめ。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Vimまとめ</title>
@@ -22,20 +40,11 @@
     
     <item>
       <title>野球観戦日記</title>
-      <link>https://fukugit.github.io/blog/posts/blog/2020-07-06-%E9%87%8E%E7%90%83/</link>
+      <link>https://fukugit.github.io/blog/posts/matome/2020-07-06-%E9%87%8E%E7%90%83/</link>
       <pubDate>Mon, 06 Jul 2020 00:21:50 +0900</pubDate>
       
-      <guid>https://fukugit.github.io/blog/posts/blog/2020-07-06-%E9%87%8E%E7%90%83/</guid>
+      <guid>https://fukugit.github.io/blog/posts/matome/2020-07-06-%E9%87%8E%E7%90%83/</guid>
       <description>&lt;p&gt;今まで行ってきた野球観戦をまとめています。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Web制作でお世話になるサイトのまとめ</title>
-      <link>https://fukugit.github.io/blog/posts/matome/2020-07-01-web%E5%88%B6%E4%BD%9C%E3%81%BE%E3%81%A8%E3%82%81/</link>
-      <pubDate>Wed, 01 Jul 2020 01:21:50 +0900</pubDate>
-      
-      <guid>https://fukugit.github.io/blog/posts/matome/2020-07-01-web%E5%88%B6%E4%BD%9C%E3%81%BE%E3%81%A8%E3%82%81/</guid>
-      <description>&lt;p&gt;Web制作で役立ちそうなサイトをまとめました。&lt;/p&gt;</description>
     </item>
     
     <item>
