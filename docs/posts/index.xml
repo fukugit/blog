@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 13 Jul 2020 00:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 01:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScriptで勉強したことのまとめ</title>
+      <link>https://fukugit.github.io/blog/posts/matome/2020-07-17-js%E3%81%BE%E3%81%A8%E3%82%81/</link>
+      <pubDate>Fri, 17 Jul 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/matome/2020-07-17-js%E3%81%BE%E3%81%A8%E3%82%81/</guid>
+      <description>&lt;p&gt;色々勉強したことのまとめ。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>在宅ワーク108日目</title>
