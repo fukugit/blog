@@ -41,14 +41,32 @@
 		</header><div class="content post__content clearfix">
 			<p>色々勉強したことのまとめ。</p>
 <h2 id="javascript">JavaScript基本構文</h2>
-<p><a href="https://codepen.io/fukugit/pen/NWxrXpe">if文やconstなどの基本の基本</a><br>
-<a href="https://codepen.io/fukugit/pen/RwrGQVq">配列やオブジェクト等の操作</a></p>
-<h2 id="heading">作ってみた</h2>
+<p><a href="https://codepen.io/fukugit/pen/NWxrXpe">if文やconstなどの基本の基本</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// アロー関数
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">sum3</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>, <span style="color:#a6e22e">c</span>) =&gt;  <span style="color:#a6e22e">a</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">b</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">c</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">sum4</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span>, <span style="color:#a6e22e">c</span>) =&gt;  { 
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">d</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">b</span>;
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">c</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">d</span>;
+}
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">double</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">a</span> =&gt; <span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>;
+</code></pre></div><p><a href="https://codepen.io/fukugit/pen/RwrGQVq">配列やオブジェクト等の操作</a><br>
+<a href="https://codepen.io/fukugit/pen/KKVrgWO">DOMの操作</a></p>
+<h2 id="npm">npm</h2>
+<p><a href="https://www.youtube.com/watch?v=2V1UUhBJ62Y&amp;list=PL1WxfRChRf3WEouqTFawIiz5amZg8TvOO&amp;index=2&amp;t=134s">npm基礎の基礎 英語版</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">npm init
+<span style="color:#75715e">## ライブラリインストール。ローカルへ</span>
+npm i moment
+<span style="color:#75715e">## browserify install</span>
+npm install -g browserify
+<span style="color:#75715e">## バンドル（ビルド）</span>
+browserify main.js -o bundle.js
+</code></pre></div><h2 id="heading">作ってみた</h2>
 <p><a href="https://codepen.io/fukugit/pen/qBbOxQd">HTMLエレメントを生成しています</a><br>
 <a href="https://codepen.io/fukugit/pen/VweawBb">HTMLエレメントをループで生成しています</a><br>
 <a href="https://codepen.io/fukugit/pen/xxZOXVY">当たりを探そう。ランダムやHTMLエレメント操作を使っています。</a><br>
 <a href="https://codepen.io/fukugit/pen/oNbmRVy">モーダルウィンドウ。モーダルウィンドウはHTMLに記述しています。</a><br>
-<a href="https://codepen.io/fukugit/pen/rNxRzaZ">モーダルウィンドウ。モーダルウィンドウはJavaScript内で生成しています。</a></p>
+<a href="https://codepen.io/fukugit/pen/rNxRzaZ">モーダルウィンドウ。モーダルウィンドウはJavaScript内で生成しています。</a><br>
+<a href="https://codepen.io/dashboard/">タブメニューでコンテンツの切り替えができます</a></p>
 		</div>
 		<footer class="post__footer">
 			
