@@ -42,7 +42,127 @@
 			<p>色々勉強したことのまとめ。</p>
 <h2 id="css">CSS基本文法</h2>
 <p><a href="https://codepen.io/fukugit/pen/abdGLbb">boxの大きさについて。borderやpaddingで要素サイズが大きくなる件</a></p>
-<p><a href="https://codepen.io/fukugit/pen/NWxMaNz">イメージのトリミング方法</a></p>
+<p><a href="https://codepen.io/fukugit/pen/GRZoEZP">CSSセレクターの基礎</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* class 指定 */</span>
+.<span style="color:#a6e22e">info</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">pink</span>;
+}
+<span style="color:#75715e">/* id 指定 */</span>
+#info {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">pink</span>;
+}
+
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">.infoクラスを持っているh1タグに対してスタイルします。
+</span><span style="color:#75715e">要素とクラス名の間にはスペースは入れることはできません。*/</span>
+<span style="color:#f92672">h1</span>.<span style="color:#a6e22e">info</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+}
+
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">.container直下の.infoクラスにスタイルします。
+</span><span style="color:#75715e">.container &gt; div &gt; .info に対してはスタイルが適用されません。 */</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> .<span style="color:#a6e22e">info</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+}
+
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">.container配下の.infoクラスにスタイルします。
+</span><span style="color:#75715e">.container &gt; div &gt; .info に対してもスタイルが適用されます。 */</span>
+.<span style="color:#a6e22e">container</span> .<span style="color:#a6e22e">info</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+}
+
+<span style="color:#75715e">/* 隣接 */</span>
+<span style="color:#f92672">p</span> <span style="color:#f92672">+</span> <span style="color:#f92672">p</span> {
+  <span style="color:#66d9ef">border-top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">orange</span>;
+}
+
+<span style="color:#f92672">p</span>::<span style="color:#a6e22e">before</span> {
+  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;before - &#34;</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+}
+<span style="color:#f92672">p</span>::<span style="color:#a6e22e">after</span> {
+  <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34; - after&#34;</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>;
+}
+
+<span style="color:#75715e">/* マウスホバー */</span>
+.<span style="color:#a6e22e">btn</span>:<span style="color:#a6e22e">hover</span> {
+  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0.8</span>;
+}
+
+<span style="color:#75715e">/* .container配下のタグ３番目にスタイルを適用します。*/</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">3</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">orange</span>;
+}
+
+<span style="color:#75715e">/* nには１,2,3...が入ります。よって３の倍数分のタグにスタイルを適用します。*/</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">3n</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">orange</span>;
+}
+
+<span style="color:#75715e">/* 奇数 */</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">odd</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">orange</span>;
+}
+<span style="color:#75715e">/* 偶数 */</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">even</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">skyblue</span>;
+}
+
+<span style="color:#75715e">/* 先頭 */</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">first-child</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">orange</span>;
+}
+<span style="color:#75715e">/* 最後 */</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> :<span style="color:#a6e22e">last-child</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">skyblue</span>;
+}
+
+<span style="color:#75715e">/* h2の偶数要素番目のタグのみをスタイルします。*/</span>
+<span style="color:#f92672">h2</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">odd</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">orange</span>;
+}
+<span style="color:#75715e">/* h2の奇数要素番目のタグのみをスタイルします。*/</span>
+<span style="color:#f92672">h2</span>:<span style="color:#a6e22e">nth-of-type</span><span style="color:#f92672">(</span><span style="color:#f92672">even</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">skyblue</span>;
+}
+
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">値が空のタグのみをスタイルします。
+</span><span style="color:#75715e">スペース、改行が入った場合は空とはみなされません。
+</span><span style="color:#75715e">HTMLコメントは空をみなされます。*/</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">ul</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">li</span>:<span style="color:#a6e22e">empty</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">skyblue</span>;
+}
+
+<span style="color:#75715e">/* not()で〜以外の要素のみにスタイルが適用されます。*/</span>
+.<span style="color:#a6e22e">container</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">ul</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">li</span>:<span style="color:#a6e22e">not</span><span style="color:#f92672">(</span>:<span style="color:#a6e22e">empty</span><span style="color:#f92672">)</span> {
+  <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">skyblue</span>;
+}
+
+<span style="color:#75715e">/* aタグのtarget属性を持っている要素に対してスタイルします。 */</span>
+<span style="color:#f92672">[</span><span style="color:#f92672">target</span><span style="color:#f92672">]</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
+}
+<span style="color:#75715e">/* aタグのhref属性の値が#topを持っている要素に対してスタイルします。 */</span>
+<span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#top&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">pink</span>;
+}
+<span style="color:#75715e">/* 前方一致。 */</span>
+<span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">^</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+}
+<span style="color:#75715e">/* 後方一致。 */</span>
+<span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">$</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bbb&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>;
+}
+<span style="color:#75715e">/* 部分一致。 */</span>
+<span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;com&#34;</span><span style="color:#f92672">]</span> {
+  <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
+}
+</code></pre></div><p><a href="https://codepen.io/fukugit/pen/NWxMaNz">イメージのトリミング方法</a></p>
 <p><a href="https://codepen.io/fukugit/pen/MWKGWvp">displayプロパティについて</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box1</span> {
   <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;        <span style="color:#75715e">/* たて並びです。 */</span>
