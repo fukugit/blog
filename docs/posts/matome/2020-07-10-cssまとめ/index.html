@@ -78,12 +78,22 @@
   <span style="color:#66d9ef">border-top</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#66d9ef">orange</span>;
 }
 
+<span style="color:#75715e">/* 要素前へcontent挿入 */</span>
 <span style="color:#f92672">p</span>::<span style="color:#a6e22e">before</span> {
   <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;before - &#34;</span>;
   <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">red</span>;
 }
+<span style="color:#75715e">/* 要素後へcontent挿入 */</span>
 <span style="color:#f92672">p</span>::<span style="color:#a6e22e">after</span> {
   <span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34; - after&#34;</span>;
+  <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>;
+}
+<span style="color:#75715e">/* 
+</span><span style="color:#75715e">HTMLタグのdata-****属性をcontentに定義します。
+</span><span style="color:#75715e">HTML側は、&lt;p data-subtitle=&#34; - Main Title&#34;&gt;aaa&lt;/p&gt; と設定します。
+</span><span style="color:#75715e">*/</span>
+<span style="color:#f92672">p</span>::<span style="color:#a6e22e">after</span> {
+  <span style="color:#66d9ef">content</span>: attr(data<span style="color:#f92672">-</span>subtitle);
   <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">blue</span>;
 }
 
@@ -162,7 +172,7 @@
 <span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;com&#34;</span><span style="color:#f92672">]</span> {
   <span style="color:#66d9ef">font-weight</span>: <span style="color:#66d9ef">bold</span>;
 }
-</code></pre></div><p><a href="https://codepen.io/fukugit/pen/NWxMaNz">イメージのトリミング方法</a></p>
+</code></pre></div><p><a href="https://codepen.io/fukugit/pen/NWxMaNz">背景のスタイリングで画像を指定する。その画像をトリミングする方法</a></p>
 <p><a href="https://codepen.io/fukugit/pen/MWKGWvp">displayプロパティについて</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box1</span> {
   <span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">block</span>;        <span style="color:#75715e">/* たて並びです。 */</span>
@@ -173,7 +183,6 @@
 </code></pre></div><p><a href="https://codepen.io/fukugit/pen/VwexZox">marginとpaddingについて</a></p>
 <p><a href="https://codepen.io/fukugit/pen/abdGzJM">positionについて。隣接した要素の配置</a></p>
 <p><a href="https://codepen.io/fukugit/pen/zYrjdJb">relative/absoluteについて。親子関係のある要素の配置</a></p>
-<p><a href="https://codepen.io/fukugit/pen/abdjxzy">::before ::afterについて。</a></p>
 <p><a href="https://codepen.io/fukugit/pen/eYJReVJ">FlexBoxまとめ</a></p>
 <p><a href="https://codepen.io/fukugit/pen/qBbxyyv">CSSグリッドまとめ その1</a></p>
 <p><a href="https://codepen.io/fukugit/pen/OJMqOPe">CSSグリッドまとめ その2</a></p>
