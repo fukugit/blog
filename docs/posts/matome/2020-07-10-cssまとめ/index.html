@@ -192,10 +192,46 @@
 <p><a href="https://codepen.io/fukugit/pen/oNbYxmM">ポートフォリオ</a><br>
 <a href="https://codepen.io/fukugit/pen/oNbMKNq">3カラムのWebページ。HeaderもFooterもFlexBoxで表現しています。</a><br>
 <a href="https://codepen.io/fukugit/pen/yLeqPyW">チャット風UI</a><br>
-<a href="https://codepen.io/fukugit/pen/qBbJOLR">FlexBoxで画像を交互に左右に振り分ける</a></p>
+<a href="https://codepen.io/fukugit/pen/qBbJOLR">FlexBoxで画像を交互に左右に振り分ける</a><br>
+<a href="https://codepen.io/fukugit/pen/PoNKqzR">CSSアニメーションでハートを作ってみた</a></p>
 <h2 id="heading-1">ドットインストールおすすめ</h2>
-<p><a href="https://dotinstall.com/lessons/basic_css_styles_v2/51218">Boxモデルの理解。marginやpaddingやborderのやつ</a></p>
-<h2 id="css-1">CSSライブラリ</h2>
+<p><a href="https://dotinstall.com/lessons/basic_css_styles_v2/51218">Boxモデルの理解。marginやpaddingやborderのやつ</a><br>
+<a href="https://dotinstall.com/lessons/basic_css_styles_v2/51226">CSS position, relativeについての説明</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* 
+</span><span style="color:#75715e">  relativeを設定することで、static（デフォルト）の位置からずらすことができます。 
+</span><span style="color:#75715e">  relativeを指定しないと移動して配置されません。
+</span><span style="color:#75715e"> */</span>
+.<span style="color:#a6e22e">box2</span> {
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">skyblue</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
+}
+</code></pre></div><p><a href="https://dotinstall.com/lessons/basic_css_styles_v2/51227">CSS position, absoluteについての説明</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;box2&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;rect&#34;</span>&gt;&lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">.<span style="color:#a6e22e">box2</span> {
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">skyblue</span>;
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">relative</span>;
+}
+.<span style="color:#a6e22e">rect</span> {
+  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">background-color</span>: <span style="color:#66d9ef">lime</span>;
+  <span style="color:#75715e">/* 
+</span><span style="color:#75715e">    absoluteを指定した場合は、親要素の左上を起点して要素を配置することができます。 
+</span><span style="color:#75715e">    親要素はrelativeにする必要があります。もしrelativeでなければ画面左上からの配置となります。
+</span><span style="color:#75715e">  */</span>
+  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>;
+  <span style="color:#66d9ef">top</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>;
+  <span style="color:#66d9ef">left</span>: <span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>;
+}
+</code></pre></div><h2 id="css-1">CSSライブラリ</h2>
 <p><a href="https://codepen.io/fukugit/pen/rNxWQKv">マテリアルアイコン</a></p>
 <h2 id="heading-2">役立つサイト</h2>
 <h3 id="flexbox">FlexBoxについて</h3>

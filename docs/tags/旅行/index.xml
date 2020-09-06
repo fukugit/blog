@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>旅行 on Blog</title>
+    <link>https://fukugit.github.io/blog/tags/%E6%97%85%E8%A1%8C/</link>
+    <description>Recent content in 旅行 on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 21 Oct 2010 13:21:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://fukugit.github.io/blog/tags/%E6%97%85%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ハワイ</title>
+      <link>https://fukugit.github.io/blog/posts/travel/2020-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</link>
+      <pubDate>Thu, 21 Oct 2010 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/travel/2020-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</guid>
+      <description>&lt;p&gt;ハワイの写真です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三崎港に行ってきた</title>
+      <link>https://fukugit.github.io/blog/posts/travel/2009-11-01-%E4%B8%89%E5%B4%8E%E6%B8%AF/</link>
+      <pubDate>Sun, 08 Nov 2009 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/travel/2009-11-01-%E4%B8%89%E5%B4%8E%E6%B8%AF/</guid>
+      <description>&lt;p&gt;三崎港に行ってきた時の写真です。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
