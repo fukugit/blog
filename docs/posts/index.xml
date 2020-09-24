@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 00:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在宅172日目</title>
+      <link>https://fukugit.github.io/blog/posts/blog/2020-09-15-%E5%9C%A8%E5%AE%85172%E6%97%A5%E7%9B%AE/</link>
+      <pubDate>Tue, 15 Sep 2020 00:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/blog/2020-09-15-%E5%9C%A8%E5%AE%85172%E6%97%A5%E7%9B%AE/</guid>
+      <description>&lt;p&gt;3/27から始まった在宅ワークから172日が経過。もうかつての生活には戻れないかも。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>133日ぶりの出社</title>
@@ -210,11 +219,38 @@
     </item>
     
     <item>
+      <title>グアム3日目</title>
+      <link>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A03%E6%97%A5%E7%9B%AE/</link>
+      <pubDate>Sat, 21 May 2011 15:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A03%E6%97%A5%E7%9B%AE/</guid>
+      <description>&lt;p&gt;グアムの写真です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>グアム2日目</title>
+      <link>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A02%E6%97%A5%E7%9B%AE/</link>
+      <pubDate>Sat, 21 May 2011 14:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A02%E6%97%A5%E7%9B%AE/</guid>
+      <description>&lt;p&gt;グアムの写真です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>グアム1日目</title>
+      <link>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A01%E6%97%A5%E7%9B%AE/</link>
+      <pubDate>Sat, 21 May 2011 13:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/travel/2011-05-%E3%82%B0%E3%82%A2%E3%83%A01%E6%97%A5%E7%9B%AE/</guid>
+      <description>&lt;p&gt;グアムの写真です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>ハワイ</title>
-      <link>https://fukugit.github.io/blog/posts/travel/2020-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</link>
+      <link>https://fukugit.github.io/blog/posts/travel/2010-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</link>
       <pubDate>Thu, 21 Oct 2010 13:21:50 +0900</pubDate>
       
-      <guid>https://fukugit.github.io/blog/posts/travel/2020-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</guid>
+      <guid>https://fukugit.github.io/blog/posts/travel/2010-10-01-%E3%83%8F%E3%83%AF%E3%82%A4/</guid>
       <description>&lt;p&gt;ハワイの写真です。&lt;/p&gt;</description>
     </item>
     
