@@ -6,10 +6,37 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 29 Sep 2020 01:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 01:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IntelliJの必須設定の一覧</title>
+      <link>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</link>
+      <pubDate>Mon, 05 Oct 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</guid>
+      <description>&lt;p&gt;IntelliJでこれだけはインストール時にやっておいたほうが良いと思っている設定です。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IntelliJのショートカット一覧</title>
+      <link>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</link>
+      <pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</guid>
+      <description>&lt;p&gt;ここ2年くらい愛用しているコンソールディタ&lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt;の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IntelliJの便利なプラグイン一覧</title>
+      <link>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</link>
+      <pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</guid>
+      <description>&lt;p&gt;個人的によくお世話にになっているプラグインたちです。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>コンソールHyperの設定方法</title>
