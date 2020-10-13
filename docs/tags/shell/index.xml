@@ -6,10 +6,19 @@
     <description>Recent content in shell on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 29 Sep 2020 01:21:50 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2020 01:21:50 +0900</lastBuildDate>
     
 	<atom:link href="https://fukugit.github.io/blog/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fish shellをインストールする方法</title>
+      <link>https://fukugit.github.io/blog/posts/shell/2020-10-13-fishsh/</link>
+      <pubDate>Tue, 13 Oct 2020 01:21:50 +0900</pubDate>
+      
+      <guid>https://fukugit.github.io/blog/posts/shell/2020-10-13-fishsh/</guid>
+      <description>&lt;p&gt;補完機能が非常に便利なFishシェルをインストールしてログインシェルに設定する方法をメモしていきます。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>コンソールHyperの設定方法</title>
