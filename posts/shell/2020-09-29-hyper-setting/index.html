@@ -1,0 +1,192 @@
+<!doctype html><html class=no-js lang=ja-jp><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>コンソールHyperの設定方法 - Blog</title><script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script><meta name=description content><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//fonts.gstatic.com><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"><link rel=stylesheet href=/blog/css/style.css><link rel="shortcut icon" href=/blog/favicon.ico></head><body class=body><div class="container container--outer"><header class=header><div class=container><div class=logo><a class=logo__link href=/blog/ title=Blog rel=home><div class=logo__title>Blog</div></a></div><div class=divider></div></div></header><div class="wrapper flex"><div class=primary><main class=main role=main><article class=post><header class=post__header><h1 class=post__title>コンソールHyperの設定方法</h1></header><div class="content post__content clearfix"><p>ここ2年くらい愛用しているコンソールディタ<a href=https://hyper.is/>Hyper</a>の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。</p><p>こんな感じのコンソールです。右下に好きな画像を好きな大きさで表示させることができます。<br><img src=hyper-setting-file-image.png alt></p><h2 id=設定ファイルの設置方法>設定ファイルの設置方法</h2><p><code>.hyper.js</code> というファイルを作って、<code>/User/ユーザ名</code>直下に設置します。（すでにファイルがあれば以下の内容で上書きます。)<br>こちらのファイルに後続で紹介するJavascript内容を貼り付ければ設定は完了です。</p><h2 id=画像の設置方法>画像の設置方法</h2><p><code>background-image</code> にローカルに設置した画像を指定すると画面右下に画像が表示されます。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript>.<span style=color:#a6e22e>terms_terms</span>{
+  <span style=color:#75715e>// Please change the below path!
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// You can specify the image path to show bottom of terminal.
+</span><span style=color:#75715e></span>  <span style=color:#a6e22e>background</span><span style=color:#f92672>-</span><span style=color:#a6e22e>image</span><span style=color:#f92672>:</span><span style=color:#a6e22e>url</span>(<span style=color:#e6db74>&#34;file:///Users/XXX/test.png&#34;</span>);
+  <span style=color:#a6e22e>background</span><span style=color:#f92672>-</span><span style=color:#a6e22e>size</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>20</span><span style=color:#f92672>%</span>;
+  <span style=color:#a6e22e>background</span><span style=color:#f92672>-</span><span style=color:#a6e22e>position</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>right</span> <span style=color:#a6e22e>bottom</span>;
+  <span style=color:#a6e22e>background</span><span style=color:#f92672>-</span><span style=color:#a6e22e>repeat</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>no</span><span style=color:#f92672>-</span><span style=color:#a6e22e>repeat</span>;
+}
+</code></pre></div><h2 id=hyperjs-の内容>.hyper.js の内容</h2><p>以下内容をコピーして<code>.hyper.js</code>に貼り付けて下さい。これで設定は完了です。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#75715e>// Future versions of Hyper may add additional config options,
+</span><span style=color:#75715e>// which will not automatically be merged into this file.
+</span><span style=color:#75715e>// See https://hyper.is#cfg for all currently supported options.
+</span><span style=color:#75715e></span>
+<span style=color:#a6e22e>module</span>.<span style=color:#a6e22e>exports</span> <span style=color:#f92672>=</span> {
+  <span style=color:#a6e22e>config</span><span style=color:#f92672>:</span> {
+    <span style=color:#75715e>// choose either `&#39;stable&#39;` for receiving highly polished,
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// or `&#39;canary&#39;` for less polished but more frequent updates
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>updateChannel</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;stable&#39;</span>,
+
+    <span style=color:#75715e>// default font size in pixels for all tabs
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>fontSize</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>18</span>,
+
+    <span style=color:#75715e>// font family with optional fallbacks
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>fontFamily</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Menlo, &#34;DejaVu Sans Mono&#34;, Consolas, &#34;Lucida Console&#34;, monospace&#39;</span>,
+
+    <span style=color:#75715e>// default font weight: &#39;normal&#39; or &#39;bold&#39;
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>fontWeight</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;normal&#39;</span>,
+
+    <span style=color:#75715e>// font weight for bold characters: &#39;normal&#39; or &#39;bold&#39;
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>fontWeightBold</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;bold&#39;</span>,
+
+    <span style=color:#75715e>// line height as a relative unit
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>lineHeight</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1</span>,
+
+    <span style=color:#75715e>// letter spacing as a relative unit
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>letterSpacing</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span>,
+
+    <span style=color:#75715e>// terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>cursorColor</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;rgba(248,28,229,0.7)&#39;</span>,
+
+    <span style=color:#75715e>// terminal text color under BLOCK cursor
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>cursorAccentColor</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#000&#39;</span>,
+
+    <span style=color:#75715e>// `&#39;BEAM&#39;` for |, `&#39;UNDERLINE&#39;` for _, `&#39;BLOCK&#39;` for █
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>cursorShape</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;BLOCK&#39;</span>,
+
+    <span style=color:#75715e>// set to `true` (without backticks and without quotes) for blinking cursor
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>cursorBlink</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>false</span>,
+
+    <span style=color:#75715e>// color of the text
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>foregroundColor</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#fff&#39;</span>,
+
+    <span style=color:#75715e>// terminal background color
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// opacity is only supported on macOS
+</span><span style=color:#75715e></span>    <span style=color:#75715e>//backgroundColor: &#39;rgba(226,38,58,0.7)&#39;,
+</span><span style=color:#75715e></span>    <span style=color:#75715e>//backgroundColor: &#39;rgba(57,57,57,0.9)&#39;,
+</span><span style=color:#75715e></span>
+    <span style=color:#75715e>// terminal selection color
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>selectionColor</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;rgba(248,28,229,0.3)&#39;</span>,
+
+    <span style=color:#75715e>// border color (window, tabs)
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>borderColor</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#333&#39;</span>,
+
+    <span style=color:#75715e>// custom CSS to embed in the main window
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>css</span><span style=color:#f92672>:</span> <span style=color:#e6db74>`
+</span><span style=color:#e6db74>    .terms_terms{
+</span><span style=color:#e6db74>      // Please change the below path!
+</span><span style=color:#e6db74>      // You can specify the image path to show bottom of terminal.
+</span><span style=color:#e6db74>      background-image:url(&#34;file:///Users/XXX/test.png&#34;);
+</span><span style=color:#e6db74>      background-size: 20%;
+</span><span style=color:#e6db74>      background-position: right bottom;
+</span><span style=color:#e6db74>      background-repeat: no-repeat;
+</span><span style=color:#e6db74>    };
+</span><span style=color:#e6db74>    `</span>,
+
+
+    <span style=color:#75715e>// custom CSS to embed in the terminal window
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>termCSS</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;&#39;</span>,
+
+    <span style=color:#75715e>// if you&#39;re using a Linux setup which show native menus, set to false
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// default: `true` on Linux, `true` on Windows, ignored on macOS
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>showHamburgerMenu</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;&#39;</span>,
+
+    <span style=color:#75715e>// set to `false` (without backticks and without quotes) if you want to hide the minimize, maximize and close buttons
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// additionally, set to `&#39;left&#39;` if you want them on the left, like in Ubuntu
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>showWindowControls</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;&#39;</span>,
+
+    <span style=color:#75715e>// custom padding (CSS format, i.e.: `top right bottom left`)
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>padding</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;12px 14px&#39;</span>,
+
+    <span style=color:#75715e>// the full list. if you&#39;re going to provide the full color palette,
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// including the 6 x 6 color cubes and the grayscale map, just provide
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// an array here instead of a color map object
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>colors</span><span style=color:#f92672>:</span> {
+      <span style=color:#a6e22e>black</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#000000&#39;</span>,
+      <span style=color:#a6e22e>red</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#C51E14&#39;</span>,
+      <span style=color:#a6e22e>green</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#1DC121&#39;</span>,
+      <span style=color:#a6e22e>yellow</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#C7C329&#39;</span>,
+      <span style=color:#a6e22e>blue</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#0A2FC4&#39;</span>,
+      <span style=color:#a6e22e>magenta</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#C839C5&#39;</span>,
+      <span style=color:#a6e22e>cyan</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#20C5C6&#39;</span>,
+      <span style=color:#a6e22e>white</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#C7C7C7&#39;</span>,
+      <span style=color:#a6e22e>lightBlack</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#686868&#39;</span>,
+      <span style=color:#a6e22e>lightRed</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#FD6F6B&#39;</span>,
+      <span style=color:#a6e22e>lightGreen</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#67F86F&#39;</span>,
+      <span style=color:#a6e22e>lightYellow</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#FFFA72&#39;</span>,
+      <span style=color:#a6e22e>lightBlue</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#6A76FB&#39;</span>,
+      <span style=color:#a6e22e>lightMagenta</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#FD7CFC&#39;</span>,
+      <span style=color:#a6e22e>lightCyan</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#68FDFE&#39;</span>,
+      <span style=color:#a6e22e>lightWhite</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;#FFFFFF&#39;</span>,
+    },
+
+    <span style=color:#75715e>// MaterialTheme: {
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// Set the theme variant,
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// OPTIONS: &#39;Darker&#39;, &#39;Palenight&#39;, &#39;Ocean&#39;, &#39;&#39;
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// theme: &#39;&#39;,
+</span><span style=color:#75715e></span>
+        <span style=color:#75715e>// [Optional] Set the rgba() app background opacity, useful when enableVibrance is true
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// OPTIONS: From 0.1 to 1
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// backgroundOpacity: &#39;0.9&#39;,
+</span><span style=color:#75715e></span>
+        <span style=color:#75715e>// [Optional] Set the accent color for the current active tab
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// accentColor: &#39;#64FFDA&#39;,
+</span><span style=color:#75715e></span>
+        <span style=color:#75715e>// [Optional] Mac Only. Need restart. Enable the vibrance and blurred background
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// OPTIONS: &#39;dark&#39;, &#39;ultra-dark&#39;, &#39;bright&#39;
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// NOTE: The backgroundOpacity should be between 0.1 and 0.9 to see the effect.
+</span><span style=color:#75715e></span>        <span style=color:#75715e>// vibrancy: &#39;dark&#39;
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// },
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>verminal</span><span style=color:#f92672>:</span> {
+      <span style=color:#a6e22e>fontSize</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>20</span>
+    },
+    <span style=color:#75715e>// the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// if left empty, your system&#39;s login shell will be used by default
+</span><span style=color:#75715e></span>    <span style=color:#75715e>//
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// Windows
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// - Make sure to use a full path if the binary name doesn&#39;t work
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// - Remove `--login` in shellArgs
+</span><span style=color:#75715e></span>    <span style=color:#75715e>//
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// Bash on Windows
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// - Example: `C:\\Windows\\System32\\bash.exe`
+</span><span style=color:#75715e></span>    <span style=color:#75715e>//
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// PowerShell on Windows
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>shell</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;&#39;</span>,
+
+    <span style=color:#75715e>// for setting shell arguments (i.e. for using interactive shellArgs: `[&#39;-i&#39;]`)
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// by default `[&#39;--login&#39;]` will be used
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>shellArgs</span><span style=color:#f92672>:</span> [<span style=color:#e6db74>&#39;--login&#39;</span>],
+
+    <span style=color:#75715e>// for environment variables
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>env</span><span style=color:#f92672>:</span> {},
+
+    <span style=color:#75715e>// set to `false` for no bell
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>bell</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;SOUND&#39;</span>,
+
+    <span style=color:#75715e>// if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>copyOnSelect</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>false</span>,
+
+    <span style=color:#75715e>// if `true` (without backticks and without quotes), hyper will be set as the default protocol client for SSH
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>defaultSSHApp</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>,
+
+    <span style=color:#75715e>// if `true` (without backticks and without quotes), on right click selected text will be copied or pasted if no
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// selection is present (`true` by default on Windows and disables the context menu feature)
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>quickEdit</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>,
+
+    <span style=color:#75715e>// URL to custom bell
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// bellSoundURL: &#39;http://example.com/bell.mp3&#39;,
+</span><span style=color:#75715e></span>
+    <span style=color:#75715e>// for advanced config flags please refer to https://hyper.is/#cfg
+</span><span style=color:#75715e></span>  },
+
+  <span style=color:#75715e>// a list of plugins to fetch and install from npm
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// format: [@org/]project[#version]
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// examples:
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//   `hyperpower`
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//   `@company/project`
+</span><span style=color:#75715e></span>  <span style=color:#75715e>//   `project#1.0.1`
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// plugins: [&#39;hyper-material-theme&#39;],
+</span><span style=color:#75715e></span>  <span style=color:#a6e22e>plugins</span><span style=color:#f92672>:</span> [<span style=color:#e6db74>&#39;verminal&#39;</span>, <span style=color:#e6db74>&#39;hyper-search&#39;</span>],
+
+  <span style=color:#75715e>// in development, you can create a directory under
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// `~/.hyper_plugins/local/` and include it here
+</span><span style=color:#75715e></span>  <span style=color:#75715e>// to load it and avoid it being `npm install`ed
+</span><span style=color:#75715e></span>  <span style=color:#a6e22e>localPlugins</span><span style=color:#f92672>:</span> [],
+
+  <span style=color:#a6e22e>keymaps</span><span style=color:#f92672>:</span> {
+    <span style=color:#75715e>// Example
+</span><span style=color:#75715e></span>    <span style=color:#75715e>// &#39;window:devtools&#39;: &#39;cmd+alt+o&#39;,
+</span><span style=color:#75715e></span>  },
+};
+</code></pre></div></div><footer class=post__footer><div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg><ul class=tags__list><li class=tags__item><a class="tags__link btn" href=/blog/tags/shell/ rel=tag>shell</a></li></ul></div></footer></article></main></div></div></div><script async defer src=/blog/js/menu.js></script></body></html>
