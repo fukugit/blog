@@ -1,1 +1,419 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tool on Blog</title><link>https://fukugit.github.io/blog/tags/tool/</link><description>Recent content in tool on Blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 05 Oct 2020 01:21:50 +0900</lastBuildDate><atom:link href="https://fukugit.github.io/blog/tags/tool/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJの必須設定の一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</link><pubDate>Mon, 05 Oct 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</guid><description>&lt;p>IntelliJでこれだけはインストール時にやっておいたほうが良いと思っている設定です。&lt;/p></description></item><item><title>IntelliJのショートカット一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</link><pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</guid><description>&lt;p>ここ2年くらい愛用しているコンソールディタ&lt;a href="https://hyper.is/">Hyper&lt;/a>の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。&lt;/p></description></item><item><title>IntelliJの便利なプラグイン一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</link><pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</guid><description>&lt;p>個人的によくお世話にになっているプラグインたちです。&lt;/p></description></item><item><title>Vimまとめ</title><link>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</link><pubDate>Mon, 06 Jul 2020 03:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</guid><description>&lt;p>Vimのまとめアレコレ。&lt;/p></description></item><item><title>VsCodeまとめ</title><link>https://fukugit.github.io/blog/posts/tool/2020-06-28-vscode/</link><pubDate>Mon, 22 Jun 2020 13:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-06-28-vscode/</guid><description>&lt;p>VS Code ショートカットやプラグインのまとめアレコレ。&lt;/p></description></item><item><title>Fish ShellでJAVA_HOME設定</title><link>https://fukugit.github.io/blog/posts/tool/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link><pubDate>Thu, 05 Mar 2020 22:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid><description>&lt;p>MacにOpenJDKをインストールして、Fish ShellにJAVA_HOMEを設定する方法。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tool on Blog</title><link>https://fukugit.github.io/blog/tags/tool/</link><description>Recent content in tool on Blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 05 Oct 2020 01:21:50 +0900</lastBuildDate><atom:link href="https://fukugit.github.io/blog/tags/tool/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJの必須設定の一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</link><pubDate>Mon, 05 Oct 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-10-05-intellij-setting/</guid><description>
+&lt;p>IntelliJでこれだけはインストール時にやっておいたほうが良いと思っている設定です。&lt;/p>
+&lt;h2 id="スペースを表示させる">スペースを表示させる&lt;/h2>
+&lt;p>エディタ内のスペースを表示させる設定です。&lt;br>
+&lt;code>preference &amp;gt; Editor &amp;gt; General &amp;gt; Appearance &amp;gt; ON ‘Show whitespaces’&lt;/code>
+&lt;img src="./img/show-whitespases.gif" alt="">&lt;/p>
+&lt;h2 id="エディタ内の縦線を消す方法">エディタ内の縦線を消す方法&lt;/h2>
+&lt;p>まずエディタ内の縦線とは何かといいますと、右側にあるこいつです。&lt;br>
+&lt;img src="./img/vertical-line.gif" alt="">&lt;/p>
+&lt;p>上記の縦線を消す設定はこちらです。
+&lt;code>preference &amp;gt; Editor &amp;gt; General &amp;gt; Appearance &amp;gt; OFF ‘Show hard wrap guide’&lt;/code>
+&lt;img src="./img/vertical-line-2.gif" alt="">&lt;/p>
+&lt;h2 id="エディタの文字サイズを変更する方法">エディタの文字サイズを変更する方法&lt;/h2>
+&lt;p>&lt;code>preference &amp;gt; Editor &amp;gt; Font&lt;/code>
+&lt;img src="./img/font-size-editor.gif" alt="">&lt;/p>
+&lt;h2 id="エディタ全体の文字サイズを変更する方法">エディタ全体の文字サイズを変更する方法&lt;/h2>
+&lt;p>&lt;code>preference &amp;gt; Editor &amp;gt; Font&lt;/code>
+&lt;img src="./img/font-size-all.gif" alt="">&lt;/p>
+&lt;h2 id="タブをスペースに変換する方法">タブをスペースに変換する方法&lt;/h2>
+&lt;p>&lt;code>preference &amp;gt; Editor &amp;gt; Code Style&amp;gt; Java &amp;gt; OFF ‘Use Tab character’&lt;/code>&lt;/p>
+&lt;p>個人的にはスペース4つではなく、以下の設定でスペース2つにすることをおすすめします。
+&lt;code>preference &amp;gt; Editor &amp;gt; Code Style&amp;gt; Java &amp;gt; ‘Indent 2’&lt;/code>
+&lt;img src="./img/change-tab-space.gif" alt="">&lt;/p></description></item><item><title>IntelliJのショートカット一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</link><pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-09-30-intellij-shortcut-map/</guid><description>
+&lt;p>ここ2年くらい愛用しているコンソールディタ&lt;a href="https://hyper.is/">Hyper&lt;/a>の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。&lt;/p>
+&lt;h2 id="key-map-for-jump">Key Map for Jump&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>前の位置に戻る &amp;amp; 進む&lt;/td>
+&lt;td>&lt;code>Option&lt;/code> + &lt;code>Command&lt;/code> + &lt;code>→←&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>選択したメソッドへ移動&lt;/td>
+&lt;td>&lt;code>Command&lt;/code> + &lt;code>B&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>最近開いたファイルを開く&lt;/td>
+&lt;td>&lt;code>Command&lt;/code> + &lt;code>E&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>開いているファイルへナビゲーション上移動する&lt;/td>
+&lt;td>&lt;code>Option&lt;/code> + &lt;code>F1&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ビルドエラー箇所に移動&lt;/td>
+&lt;td>&lt;code>Shift&lt;/code> + &lt;code>F2&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>選択している変数が使わている箇所全てへフォーカスする&lt;/td>
+&lt;td>&lt;code>Ctrl&lt;/code> + &lt;code>G&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>子クラスへ移動&lt;/td>
+&lt;td>&lt;code>Command&lt;/code> + &lt;code>U&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>インターフェースから実クラスへ移動&lt;/td>
+&lt;td>&lt;code>Option&lt;/code> + &lt;code>Command&lt;/code> + &lt;code>B&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>クラスやナビゲーションを移動&lt;/td>
+&lt;td>&lt;code>Ctrl&lt;/code> + &lt;code>Tab&lt;/code> (Should be set to &amp;ldquo;Shift + Tab&amp;rdquo;)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-edit">Key Map for Edit&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Quick-fixes. (Adding package into the import syntax.)&lt;/td>
+&lt;td>Option + Return&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Removing unnecessary import&lt;/td>
+&lt;td>Option + Ctrl + O&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Align code format&lt;/td>
+&lt;td>Option + Command + L&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Close tab&lt;/td>
+&lt;td>Command + W&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Build&lt;/td>
+&lt;td>Command + F9&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Copy Line&lt;/td>
+&lt;td>Command + D&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Delete Line&lt;/td>
+&lt;td>Command + Del&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Add new Line&lt;/td>
+&lt;td>Shift + Enter&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Focus expand&lt;/td>
+&lt;td>Option + ↑&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Focus reduce&lt;/td>
+&lt;td>Option + ↓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Moving forcused line&lt;/td>
+&lt;td>Option + Shift + ↑/↓&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Forcus Editor&lt;/td>
+&lt;td>esc&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Moving line like mouse while&lt;/td>
+&lt;td>fn + ↑/↓(page up/down)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Go to start of line&lt;/td>
+&lt;td>Ctrl + a&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Go to end of line&lt;/td>
+&lt;td>Ctrl + e&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Go to specified line&lt;/td>
+&lt;td>Command + L&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Go to variable&lt;/td>
+&lt;td>Option + Command + F7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Show where variable is used&lt;/td>
+&lt;td>Option + F7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Expand code block&lt;/td>
+&lt;td>Command + .&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing Javadoc&lt;/td>
+&lt;td>Ctrl + J&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing method argument&lt;/td>
+&lt;td>Command + P&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hiding navigator&lt;/td>
+&lt;td>Command + Shift + F12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Add Javadoc&lt;/td>
+&lt;td>Command + Shift + A then put &amp;ldquo;fix &amp;quot;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Close other&lt;/td>
+&lt;td>It is necessary to set on keymap. I set like this. &lt;code>Option + W&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-generate">Key Map for Generate&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Generating Javadoc comment&lt;/td>
+&lt;td>/** + return&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating variable&lt;/td>
+&lt;td>Option + Command + V&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating constructor&lt;/td>
+&lt;td>Command + N&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating class&lt;/td>
+&lt;td>Command + N&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating main method&lt;/td>
+&lt;td>psvm + Tab&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating IF/For statement&lt;/td>
+&lt;td>Command + Option + T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating IF/For statement&lt;/td>
+&lt;td>Command + Option + T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generating UML&lt;/td>
+&lt;td>Option + Shift + Command + U&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-showing-information">Key Map for Showing information&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Showing Callers method&lt;/td>
+&lt;td>Option +Ctrl + H&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing list of method&lt;/td>
+&lt;td>Command + F12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing extended class&lt;/td>
+&lt;td>Ctrl + H&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-refactoring">Key Map for Refactoring&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Move package&lt;/td>
+&lt;td>F6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rename&lt;/td>
+&lt;td>Shift + F6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Open refactoring navigator&lt;/td>
+&lt;td>Ctrl + T&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-debug">Key map for Debug&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Execute main method&lt;/td>
+&lt;td>Ctrl + Shift + R or D&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Run junit&lt;/td>
+&lt;td>Ctrl + Shift + F10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Step over&lt;/td>
+&lt;td>F8&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Step in&lt;/td>
+&lt;td>F7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Go to next break point&lt;/td>
+&lt;td>Option + F9&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Set/Remove break point&lt;/td>
+&lt;td>Command + F8&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="key-map-for-git">Key map for Git&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Key Map&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Commit&lt;/td>
+&lt;td>Command + K&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Push&lt;/td>
+&lt;td>Command + Shift + K&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Pull&lt;/td>
+&lt;td>Command + T&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing git command List&lt;/td>
+&lt;td>Ctrl + V&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="./img/intellij-shortcut-key.png" alt="">&lt;/p></description></item><item><title>IntelliJの便利なプラグイン一覧</title><link>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</link><pubDate>Wed, 30 Sep 2020 01:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-10-01-intellij-plugin/</guid><description>
+&lt;p>個人的によくお世話にになっているプラグインたちです。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Description&lt;/th>
+&lt;th>Plugins&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Adding markdown preview.&lt;/td>
+&lt;td>Markdown Navigator&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Showing current branch name.&lt;/td>
+&lt;td>Git ToolBox&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Changing to material UI.&lt;/td>
+&lt;td>Material Theme UI&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Changing brackets color.&lt;/td>
+&lt;td>Rainbow Brackets&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Executing Maven commands.&lt;/td>
+&lt;td>maven helper&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Using Lombok.&lt;/td>
+&lt;td>Lombok Plugin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Changing SQL Editor.&lt;/td>
+&lt;td>SQL Query Plugin&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Changing console window&lt;/td>
+&lt;td>Grep Console&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Vimまとめ</title><link>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</link><pubDate>Mon, 06 Jul 2020 03:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-07-06-vim/</guid><description>
+&lt;p>Vimのまとめアレコレ。&lt;/p>
+&lt;h2 id="テーマ">テーマ&lt;/h2>
+&lt;h3 id="テーマの変更">テーマの変更&lt;/h3>
+&lt;p>&lt;a href="https://qiita.com/sff1019/items/3f73856b78d7fa2731c7">vimのカラースキームの設定・編集方法（初心者〜上級者）&lt;/a>&lt;br>
+&lt;a href="http://weble.org/2010/04/04/vim-filetype">vim で指定した拡張子のファイルに指定したハイライトをさせる方法&lt;/a>&lt;/p></description></item><item><title>VsCodeまとめ</title><link>https://fukugit.github.io/blog/posts/tool/2020-06-28-vscode/</link><pubDate>Mon, 22 Jun 2020 13:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-06-28-vscode/</guid><description>
+&lt;p>VS Code ショートカットやプラグインのまとめアレコレ。&lt;/p>
+&lt;h1 id="よく使うショートカットキー">■よく使うショートカットキー&lt;/h1>
+&lt;h2 id="emmet記法">Emmet記法&lt;/h2>
+&lt;h3 id="htmlの雛形を作成">HTMLの雛形を作成&lt;/h3>
+&lt;pre>&lt;code>!
+&lt;/code>&lt;/pre>&lt;h1 id="便利プラグイン">■便利プラグイン&lt;/h1>
+&lt;h2 id="ブラウザを開く">ブラウザを開く&lt;/h2>
+&lt;p>open in browser&lt;/p>
+&lt;pre>&lt;code>option + B
+&lt;/code>&lt;/pre></description></item><item><title>Fish ShellでJAVA_HOME設定</title><link>https://fukugit.github.io/blog/posts/tool/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</link><pubDate>Thu, 05 Mar 2020 22:21:50 +0900</pubDate><guid>https://fukugit.github.io/blog/posts/tool/2020-03-05-java14%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/</guid><description>
+&lt;p>MacにOpenJDKをインストールして、Fish ShellにJAVA_HOMEを設定する方法。&lt;/p>
+&lt;h2 id="まずはダウンロード">まずはダウンロード&lt;/h2>
+&lt;p>まずはここからtarファイルを取得。&lt;br>
+&lt;a href="https://jdk.java.net/">https://jdk.java.net/&lt;/a>&lt;/p>
+&lt;p>たとえばJava14だったらここからね。&lt;br>
+macOS / x64のtar.gzファイルをダウンロード。&lt;br>
+&lt;a href="https://jdk.java.net/14/">https://jdk.java.net/14/&lt;/a>&lt;/p>
+&lt;h2 id="インストール">インストール&lt;/h2>
+&lt;p>ダウンロードしたファイルを展開するよ。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">tar xvzf openjdk-14.....tar.gz
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>そして展開したディレクトリを移動するよ。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">sudo mv jdk-14.jdk /Library/Java/JavaVirtualMachines/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>OpenJDKが入っているか確認するよ。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">/usr/libexec/java_home -V
+Matching Java Virtual Machines &lt;span style="color:#f92672">(&lt;/span>4&lt;span style="color:#f92672">)&lt;/span>:
+14, x86_64: &lt;span style="color:#e6db74">&amp;#34;OpenJDK 14&amp;#34;&lt;/span> /Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="環境変数の設定">環境変数の設定&lt;/h2>
+&lt;p>環境変数に登録するよ。&lt;br>
+普通のbashならこんな感じで登録はOK&lt;br>
+でもFish Shellだとエラーになるのでこのあとの方法で環境変数を変更します。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">export JAVA_HOME&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>/usr/libexec/java_home -v 14&lt;span style="color:#e6db74">`&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fish Shellだとこんな感じ。&lt;br>
+詳しくはここを見てね。&lt;br>
+&lt;a href="https://qiita.com/ledsun/items/8ca1a450b21c8ebc9670">https://qiita.com/ledsun/items/8ca1a450b21c8ebc9670&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">vi ~/.config/fish/config.fish
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>viで開いたらこんな感じで環境変数を書き込んでね。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">set -x JAVA_HOME &lt;span style="color:#f92672">(&lt;/span>/usr/libexec/java_home -v 14&lt;span style="color:#f92672">)&lt;/span>
+set -U fish_user_paths $JAVA_HOME
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>さいごにJavaのバージョンを確認して終わり。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">java -version
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
