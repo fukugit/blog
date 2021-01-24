@@ -4,7 +4,7 @@ baseURL = "https://fukugit.github.io/blog/"
 languageCode = "ja-JP"
 title = "Blog"
 # theme = "mainroad"
-theme = "hugo-clarity"
+theme = "mainroad"
 publishDir = "docs"
 
 [params]
