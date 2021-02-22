@@ -3,9 +3,10 @@
 baseURL = "https://fukugit.github.io/blog/"
 languageCode = "ja-JP"
 title = "Blog"
-# theme = "mainroad"
 theme = "mainroad"
 publishDir = "docs"
+defaultContentLanguage = "ja"
+enableEmoji = true
 
 [params]
   author = "fukuro"
@@ -32,18 +33,3 @@ publishDir = "docs"
   single = false # シングルページでサイドカラムを出すか出さないか。今は出さないよ。
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-
-## GitHub風のテーマの設定
-# baseURL = "https://fukugit.github.io/blog/"
-# languageCode = "ja-JP"
-# title = "Blog"
-# theme = "github-style"
-#
-# [params]
-#  author = "fukuro"
-#  description = "This is my blog. "
-#  github = "fukugit"
-#  twitter = "kurrow1"
-#  utterances = "github/github.github.io"
-#  avatar = "https://avatars1.githubusercontent.com/u/8071941?s=460&v=4"
-#  url = "https://github.com/fukugit"
