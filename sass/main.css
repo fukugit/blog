@@ -1,3 +1,12 @@
+/* background color of site base. */
+/* background color of contents in list */
+/* background color of sidebar */
+/* background color of title in navi. */
+/* background color of pre. */
+/* font color of title like h1 in header. */
+/* font color, which is base one. */
+/* font color in navi */
+/* font color of pre. */
 @import https://unpkg.com/ress/dist/ress.min.css;
 body {
   background-color: #fff;
@@ -7,6 +16,9 @@ body {
     color: #3d4141;
     width: 1000px;
     margin: 20px auto; }
+    @media (max-width: 480px) {
+      body .header {
+        width: 100%; } }
     body .header h1 {
       color: #3d4141; }
   body .container {
@@ -14,30 +26,41 @@ body {
     width: 1000px;
     margin: 20px auto;
     /* list */ }
+    @media (max-width: 480px) {
+      body .container {
+        width: 100%;
+        flex-direction: column; } }
     body .container .list {
       background-color: #fff;
       width: 74%;
-      padding: 10px;
       box-sizing: border-box;
       position: relative; }
+      @media (max-width: 480px) {
+        body .container .list {
+          width: 100%; } }
       body .container .list .summary-list {
         margin-bottom: 100px;
         /* summary */ }
         body .container .list .summary-list .summary {
           padding-left: 10px;
-          margin-bottom: 20px; }
-          body .container .list .summary-list .summary h2 {
-            display: inline-block;
-            margin-bottom: 0; }
+          padding-bottom: 10px;
+          box-sizing: border-box;
+          margin-bottom: 40px;
+          border: #cfcfcf 1px solid; }
+          @media (max-width: 480px) {
+            body .container .list .summary-list .summary {
+              padding-left: 5px;
+              padding-right: 5px; } }
           body .container .list .summary-list .summary header {
             display: flex;
             flex-direction: column;
-            margin-bottom: 30px; }
+            align-items: flex-start;
+            margin-bottom: 20px; }
             body .container .list .summary-list .summary header h2 {
               height: auto; }
             body .container .list .summary-list .summary header .date {
-              padding-top: 20px;
-              padding-left: 20px;
+              padding-top: 5px;
+              padding-left: 5px;
               font-size: 0.8rem;
               box-sizing: border-box; }
           body .container .list .summary-list .summary img {
@@ -46,9 +69,15 @@ body {
             padding-left: 30px;
             display: flex;
             flex-direction: column; }
+            @media (max-width: 480px) {
+              body .container .list .summary-list .summary .summary-contant {
+                padding-left: 0; } }
             body .container .list .summary-list .summary .summary-contant .image {
               margin-top: 5px;
               width: 60%; }
+              @media (max-width: 480px) {
+                body .container .list .summary-list .summary .summary-contant .image {
+                  width: 100%; } }
             body .container .list .summary-list .summary .summary-contant .sentence {
               width: 100%; }
       body .container .list .pager-layout {
@@ -68,6 +97,9 @@ body {
       box-sizing: border-box;
       /* Typography */
       /* end Typography */ }
+      @media (max-width: 480px) {
+        body .container .main {
+          width: 100%; } }
       body .container .main h1,
       body .container .main h2,
       body .container .main h3,
@@ -104,8 +136,7 @@ body {
         color: #ff6768; }
       body .container .main hr {
         margin: 0 0 20px;
-        border: 0;
-        border-top: 1px solid #2f3131; }
+        border: 0; }
       body .container .main p {
         margin: 0 0 1.25rem; }
       body .container .main b,
@@ -138,7 +169,7 @@ body {
         font-size: inherit; }
       body .container .main pre,
       body .container .main code {
-        background-color: #17223b;
+        background-color: #4e525c;
         color: #fff; }
       body .container .main code {
         padding: 0 5px; }
@@ -148,8 +179,7 @@ body {
         padding: 1.25rem;
         margin-bottom: 20px;
         margin-bottom: 2.05rem;
-        overflow: auto;
-        color: #2f3131; }
+        overflow: auto; }
       body .container .main pre code {
         padding: 0;
         color: inherit;
@@ -158,7 +188,7 @@ body {
         border: 0; }
       body .container .main kbd {
         padding: 2px 3px;
-        background-color: #17223b;
+        background-color: #4e525c;
         color: #fff; }
       body .container .main blockquote {
         display: block;
@@ -190,6 +220,12 @@ body {
         margin-bottom: 1.25rem;
         font-family: "Consolas", Courier New, Courier, monospace;
         line-height: 1.5; }
+      body .container .main table {
+        margin-bottom: 20px; }
+      body .container .main td, body .container .main th {
+        border: 1px #cfcfcf solid;
+        padding: 5px;
+        box-sizing: border-box; }
       body .container .main dl {
         margin: 0 0 10px 20px; }
       body .container .main dt,
@@ -204,16 +240,28 @@ body {
       body .container .main select {
         max-width: 100%; }
       body .container .main img {
-        width: 100%;
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0.501rem;
         margin-bottom: 20px;
         margin-bottom: 1.85rem; }
+        @media (max-width: 480px) {
+          body .container .main img {
+            width: 100%; } }
     body .container .sidebar {
       background-color: #fff;
+      border: #cfcfcf 1px solid;
       margin-left: 10px;
       width: 26%;
       padding: 10px;
       box-sizing: border-box; }
+      @media (max-width: 480px) {
+        body .container .sidebar {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 10px; } }
       body .container .sidebar a {
         color: #fff;
         font-size: 0.7rem; }
