@@ -25,7 +25,10 @@ body {
     display: flex;
     width: 1000px;
     margin: 20px auto;
-    /* list */ }
+    /* list */
+    /* 
+      tags, etc..
+     */ }
     @media (max-width: 480px) {
       body .container {
         width: 100%;
@@ -92,7 +95,7 @@ body {
           color: #2f3131; }
     body .container .main {
       background-color: #fff;
-      width: 74%;
+      width: 100%;
       padding: 10px;
       box-sizing: border-box;
       /* Typography */
@@ -271,6 +274,9 @@ body {
         box-sizing: border-box;
         background-color: #17223b;
         margin-bottom: 5px; }
+        @media (max-width: 480px) {
+          body .container .sidebar .title {
+            padding: 10px 10px 10px 10px; } }
         body .container .sidebar .title a {
           display: block;
           width: 100%;
@@ -283,6 +289,9 @@ body {
         padding: 5px;
         box-sizing: border-box;
         background-color: #17223b; }
+        @media (max-width: 480px) {
+          body .container .sidebar .tag {
+            padding: 10px 10px 10px 10px; } }
       body .container .sidebar .tag:hover {
         background-color: #ff6768; }
   body p {
