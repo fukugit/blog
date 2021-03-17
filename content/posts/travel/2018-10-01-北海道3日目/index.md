@@ -4,6 +4,7 @@ date: 2018-10-21T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "北海道" ]
+thumbnail: "./posts/travel/2018-10-01-北海道3日目/img/1-4.jpg"
 ---
 北海道の写真です。  
 <!--more-->

@@ -4,6 +4,7 @@ date: 2019-07-01T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "関東" ]
+thumbnail: "./posts/travel/2019-07-01-塩原温泉/img/1-4.jpg"
 ---
 塩原温泉に行ってきたときの写真です。  
 <!--more-->

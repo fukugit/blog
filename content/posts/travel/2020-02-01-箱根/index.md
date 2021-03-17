@@ -4,6 +4,7 @@ date: 2020-02-01T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "関東" ]
+thumbnail: "./posts/travel/2020-02-01-箱根/img/1-4.jpg"
 ---
 箱根に行ってきたときの写真です。  
 <!--more-->

@@ -4,6 +4,7 @@ date: 2019-02-21T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "沖縄" ]
+thumbnail: "./posts/travel/2019-02-01-沖縄/img/1-4.jpg"
 ---
 沖縄にカープを観にいきました。  
 <!--more-->

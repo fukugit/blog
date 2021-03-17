@@ -4,6 +4,7 @@ date: 2018-08-21T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "広島" ]
+thumbnail: "./posts/travel/2018-08-01-広島/img/4.jpg"
 ---
 広島の写真です。  
 <!--more-->
