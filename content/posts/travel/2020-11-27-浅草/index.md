@@ -3,7 +3,7 @@ title: "浅草"
 date: 2020-11-27T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "関東" ]
 thumbnail: "./posts/travel/2020-11-27-浅草/img/1.jpg"
 ---
 GoToトラベルで浅草ビューホテルに行ってきました。  

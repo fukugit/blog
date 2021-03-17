@@ -3,7 +3,7 @@ title: "北海道 2日目"
 date: 2018-10-21T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "北海道" ]
 ---
 北海道の写真です。  
 <!--more-->

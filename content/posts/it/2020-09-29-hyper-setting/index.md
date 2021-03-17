@@ -3,7 +3,7 @@ title: "コンソールHyperの設定方法"
 date: 2020-09-29T01:21:50+09:00
 draft: false
 category: shell
-tags: [ "shell" ]
+tags: [ "コンピューター" ]
 ---
 ここ2年くらい愛用しているコンソールディタ[Hyper](https://hyper.is/)の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。  
 <!--more-->

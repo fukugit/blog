@@ -3,7 +3,7 @@ title: "広島"
 date: 2019-08-01T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "広島" ]
 ---
 広島の写真です。  
 <!--more-->

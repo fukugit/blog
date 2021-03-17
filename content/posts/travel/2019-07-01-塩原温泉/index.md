@@ -3,7 +3,7 @@ title: "塩原温泉"
 date: 2019-07-01T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "関東" ]
 ---
 塩原温泉に行ってきたときの写真です。  
 <!--more-->

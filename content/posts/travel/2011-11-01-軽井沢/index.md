@@ -3,7 +3,8 @@ title: "軽井沢"
 date: 2011-11-01T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "関東" ]
+thumbnail: "./posts/travel/2011-11-01-軽井沢/img/1-4.jpg"
 ---
 軽井沢に旅行に行ってきたときの写真です。  
 <!--more-->

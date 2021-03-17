@@ -3,7 +3,7 @@ title: "沖縄"
 date: 2019-09-01T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行" ]
+tags: [ "旅行", "沖縄" ]
 ---
 沖縄に行ってきたときの写真です。  
 <!--more-->

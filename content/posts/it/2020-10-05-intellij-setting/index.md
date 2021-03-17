@@ -3,7 +3,7 @@ title: "IntelliJの必須設定の一覧"
 date: 2020-10-05T01:21:50+09:00
 draft: false
 category: tool
-tags: [ "tool" ]
+tags: [ "コンピューター" ]
 ---
 IntelliJでこれだけはインストール時にやっておいたほうが良いと思っている設定です。  
 <!--more-->

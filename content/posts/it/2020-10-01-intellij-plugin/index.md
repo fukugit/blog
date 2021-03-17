@@ -3,7 +3,7 @@ title: "IntelliJの便利なプラグイン一覧"
 date: 2020-09-30T01:21:50+09:00
 draft: false
 category: tool
-tags: [ "tool" ]
+tags: [ "コンピューター" ]
 ---
 個人的によくお世話にになっているプラグインたちです。
 <!--more-->
