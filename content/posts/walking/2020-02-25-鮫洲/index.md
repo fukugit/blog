@@ -4,6 +4,7 @@ date: 2020-02-25T23:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2020-02-25-鮫洲/img/1-4.jpg"
 ---
 2019年の年末に免許更新で鮫洲に行ってきました。  
 

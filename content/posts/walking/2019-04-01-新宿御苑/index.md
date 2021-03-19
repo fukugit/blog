@@ -4,6 +4,7 @@ date: 2019-04-21T13:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2019-04-01-新宿御苑/img/1-4.jpg"
 ---
 新宿御苑に行ってきたときの写真です。  
 <!--more-->

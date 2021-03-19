@@ -4,6 +4,7 @@ date: 2019-06-01T13:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2019-06-01-銀座/img/1-4.jpg"
 ---
 銀座に行ってきたときの写真です。  
 <!--more-->

@@ -4,6 +4,7 @@ date: 2018-09-21T13:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2018-12-01-多摩センター/img/1-4.jpg"
 ---
 多摩センターで「鯉の話シアター」を観てきました。  
 <!--more-->

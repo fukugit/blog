@@ -4,6 +4,7 @@ date: 2019-05-01T13:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2019-05-01-湯島/img/1-4.jpg"
 ---
 湯島に行ってきたときの写真です。  
 <!--more-->

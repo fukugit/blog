@@ -4,6 +4,7 @@ date: 2020-02-24T18:21:50+09:00
 draft: false
 category: walking
 tags: [ "東京町歩き" ]
+thumbnail: "./posts/walking/2020-02-24-赤羽/img/1-4.jpg"
 ---
 十条から赤羽を散策してきました。  
 
