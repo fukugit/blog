@@ -41,6 +41,13 @@ body {
       @media (max-width: 480px) {
         body .container .list {
           width: 100%; } }
+      body .container .list .summary-title {
+        margin-bottom: 10px;
+        border: #cfcfcf 1px solid;
+        vertical-align: top;
+        font-size: 1.8rem;
+        padding: 10px;
+        box-sizing: border-box; }
       body .container .list .summary-list {
         margin-bottom: 100px;
         /* summary */ }
@@ -113,7 +120,10 @@ body {
         margin: 0 0 1.25rem;
         font-weight: 700;
         line-height: 1.3;
-        color: #3d4141; }
+        color: #3d4141;
+        margin-top: 80px; }
+      body .container .main h1#title {
+        margin-top: 10px; }
       body .container .main h1 {
         font-size: 32px;
         font-size: 2rem; }
@@ -224,10 +234,11 @@ body {
         font-family: "Consolas", Courier New, Courier, monospace;
         line-height: 1.5; }
       body .container .main table {
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        width: 100%; }
       body .container .main td, body .container .main th {
         border: 1px #cfcfcf solid;
-        padding: 5px;
+        padding: 10px;
         box-sizing: border-box; }
       body .container .main dl {
         margin: 0 0 10px 20px; }
