@@ -19,7 +19,8 @@ US配列キーボードだとショートカットキーが正常に動かない
 | Open shourtcut view | `⌘` `k` , `⌘` `S` | openGlobalKeybindings |
 
 ## 画面分割系ショートカットキー
-初期設定とは異なるショートカットキーもあるので、動かない場合はcommand idで確認して下さい。
+初期設定とは異なるショートカットキーもあるので、動かない場合はcommand idで確認して下さい。  
+
 | description                       | Key Map     | command id               |
 | --------------------------------- | ----------- | ------------------------ |
 | Split Editor                      | `⌘` `\`     | splitEditor              |
