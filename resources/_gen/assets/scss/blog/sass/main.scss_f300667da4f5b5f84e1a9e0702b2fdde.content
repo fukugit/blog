@@ -42,9 +42,9 @@ body {
         body .container .list {
           width: 100%; } }
       body .container .list .summary-title {
+        background-color: #17223b;
         color: #fff;
         margin-bottom: 10px;
-        border: #cfcfcf 1px solid;
         vertical-align: top;
         font-size: 1.8rem;
         padding: 10px;
