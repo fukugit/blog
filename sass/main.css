@@ -42,6 +42,7 @@ body {
         body .container .list {
           width: 100%; } }
       body .container .list .summary-title {
+        color: #fff;
         margin-bottom: 10px;
         border: #cfcfcf 1px solid;
         vertical-align: top;
@@ -266,10 +267,9 @@ body {
             width: 100%; } }
     body .container .sidebar {
       background-color: #fff;
-      border: #cfcfcf 1px solid;
       margin-left: 10px;
       width: 26%;
-      padding: 10px;
+      padding-left: 10px;
       box-sizing: border-box; }
       @media (max-width: 480px) {
         body .container .sidebar {
@@ -279,9 +279,14 @@ body {
       body .container .sidebar a {
         color: #fff;
         font-size: 0.7rem; }
+      body .container .sidebar .head {
+        font-size: 1.4rem;
+        margin-bottom: 5px; }
+      body .container .sidebar .head:nth-of-type(n+2) {
+        margin-top: 50px; }
       body .container .sidebar .title {
         width: 100%;
-        padding: 0 10px 0 10px;
+        padding: 5px 10px 5px 10px;
         box-sizing: border-box;
         background-color: #17223b;
         margin-bottom: 5px; }
