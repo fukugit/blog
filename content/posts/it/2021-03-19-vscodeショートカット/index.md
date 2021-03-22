@@ -18,7 +18,7 @@ US配列キーボードだとショートカットキーが正常に動かない
 | ------------------- | ----------------- | --------------------- |
 | Open shourtcut view | `⌘` `k` , `⌘` `S` | openGlobalKeybindings |
 
-## 画面分割系ショートカットキー
+## 画面分割系
 初期設定とは異なるショートカットキーもあるので、動かない場合はcommand idで確認して下さい。  
 
 | description                       | Key Map     | command id               |
@@ -27,7 +27,7 @@ US配列キーボードだとショートカットキーが正常に動かない
 | Split Editor to bottom            | `⌥` `⌘` `\` | splitEditorOrthogonal    |
 | Split Terminal                    | `⌘` `\`     | terminal.split           |
 
-## サイドバー移動系ショートカットキー
+## サイドバー移動系
 | description                       | Key Map | command id               |
 | --------------------------------- | ------- | ------------------------ |
 | Go to Active file name in SideBar | `⌘` `;` | showActiveFileInExplorer |
@@ -35,12 +35,12 @@ US配列キーボードだとショートカットキーが正常に動かない
 | Toggle SideBar                    | `⌘` `B` | toggleSidebarVisibility  |
 | Open File in SideBar              | `Space` | openFilePreserveFocus    |
 
-## ターミナル系ショートカットキー
+## ターミナル系
 | description    | Key Map | command id    |
 | -------------- | ------- | ------------- |
 | Close Terminal | `⌃` `w` | terminal.kill |
 
-## サーバ起動系ショートカットキー
+## サーバ起動系
 | description           | Key Map           | command id |
 | --------------------- | ----------------- | ---------- |
 | Open with Live Server | `⌘` `n` , `⌘` `o` | goOnline   |

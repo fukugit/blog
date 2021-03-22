@@ -3,10 +3,12 @@
 /* background color of sidebar */
 /* background color of title in navi. */
 /* background color of pre. */
+/* background color of title in main contents. */
 /* font color of title like h1 in header. */
 /* font color, which is base one. */
 /* font color in navi */
 /* font color of pre. */
+/* font color in navi */
 @import https://unpkg.com/ress/dist/ress.min.css;
 body {
   background-color: #fff;
@@ -237,6 +239,9 @@ body {
       body .container .main table {
         margin-bottom: 20px;
         width: 100%; }
+      body .container .main th {
+        background-color: #17223b;
+        color: #fff; }
       body .container .main td, body .container .main th {
         border: 1px #cfcfcf solid;
         padding: 10px;
