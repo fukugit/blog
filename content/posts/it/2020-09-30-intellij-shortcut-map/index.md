@@ -5,8 +5,16 @@ draft: false
 category: tool
 tags: [ "コンピューター" ]
 ---
-ここ2年くらい愛用しているコンソールディタ[Hyper](https://hyper.is/)の自分用設定ファイル例です。このコンソールの最大の特徴は設定ファイルがJavascript構文に従ってかけるということです。  
+
+IntelliJでよく使うショートカットキーをまとめました。  
 <!--more-->
+
+## ナビゲータ系
+
+| Description    | Key Map |
+| -------------- | ------- |
+| Toggle SideBar | `⌘` `1` |
+
 
 ## Key Map for Jump
 
