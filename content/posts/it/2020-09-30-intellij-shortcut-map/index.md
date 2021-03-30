@@ -112,3 +112,18 @@ IntelliJでよく使うショートカットキーをまとめました。
 |Showing git command List| Ctrl + V|
 
 ![](./img/intellij-shortcut-key.png)  
+
+
+## おすすめプラグインたち
+
+| Description                  | Plugins            |
+| ---------------------------- | ------------------ |
+| Adding markdown preview.     | Markdown Navigator |
+| Showing current branch name. | Git ToolBox        |
+| Changing to material UI.     | Material Theme UI  |
+| Changing brackets color.     | Rainbow Brackets   |
+| Executing Maven commands.    | maven helper       |
+| Using Lombok.                | Lombok Plugin      |
+| Changing SQL Editor.         | SQL Query Plugin   |
+| Changing console window      | Grep Console       |
+
