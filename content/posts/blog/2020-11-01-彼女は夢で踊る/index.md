@@ -3,7 +3,7 @@ title: "映画「彼女は夢で踊る」を観てきた"
 date: 2020-11-01T00:21:50+09:00
 draft: false
 category: blog
-tags: [ "ブログ" ]
+tags: [ "つぶやき" ]
 ---
 とってもいい映画でした。  
 <!--more-->

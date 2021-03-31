@@ -3,7 +3,7 @@ title: "散財"
 date: 2021-02-28T00:21:50+09:00
 draft: false
 category: blog
-tags: [ "ブログ" ]
+tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2021-02-28-散財/img/2.jpg"
 ---
 ふるさと納税でもらった楽天ポイント２万円分で無駄遣いをしました。  

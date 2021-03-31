@@ -3,7 +3,7 @@ title: "2020年の正月"
 date: 2020-02-21T13:21:50+09:00
 draft: false
 category: blog
-tags: [ "ブログ" ]
+tags: [ "つぶやき" ]
 ---
 今年もいつもの正月。  
 

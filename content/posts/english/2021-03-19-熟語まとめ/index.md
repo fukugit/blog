@@ -3,7 +3,7 @@ title: "英熟語まとめ"
 date: 2021-03-19T03:21:50+09:00
 draft: false
 category: english
-tags: [ "英語" ]
+tags: [ "English" ]
 ---
 
 自分用に覚えておきたい熟語をまとめました。

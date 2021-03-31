@@ -3,12 +3,23 @@ title: "英語構文まとめ"
 date: 2021-03-29T03:21:50+09:00
 draft: false
 category: english
-tags: [ "英語" ]
+tags: [ "English" ]
 ---
 
 自分用に覚えておきたい構文をまとめました。
 
 <!--more-->
+
+## 受動態
+
+| Word          | Example                                |
+| ------------- | -------------------------------------- |
+| will be p.p   | A full moon will be seen this evening. |
+| have been p.p | My bag has been stolen.                |
+| be being p.p  | The brige is being constructed.        |
+| be p.p to v   | I was made to finish the work.         |
+
+
 
 ## 比較
 
