@@ -3,7 +3,7 @@ title: "VSCodeショートカット集"
 date: 2021-03-19T03:21:50+09:00
 draft: false
 category: tool
-tags: [ "コンピューター" ]
+tags: [ "ショートカット" ]
 ---
 
 VSCodeでよく使うショートカットをまとめました。

@@ -3,7 +3,7 @@ title: "野球観戦日記"
 date: 2020-07-06T00:21:50+09:00
 draft: false
 category: blog
-tags: [ "まとめ" ]
+tags: [ "野球" ]
 ---
 今まで行ってきた野球観戦をまとめています。
 
