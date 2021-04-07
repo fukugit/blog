@@ -9,18 +9,23 @@ tags: [ "ショートカット" ]
 IntelliJでよく使うショートカットキーをまとめました。  
 <!--more-->
 
+## Toggle系
+
+| Description                | Key Map |
+| -------------------------- | ------- |
+| Toggle SideBar             | `⌘` `1` |
+| Toggle debuger of console. | `⌘` `5` |
+
 ## ナビゲータ系
 
 | Description                          | Key Map       |
 | ------------------------------------ | ------------- |
-| Toggle SideBar                       | `⌘` `1`       |
 | Focuse a opened file name in SideBar | `⌥` `F1`, `1` |
 
 ## IntelliJ内移動系
 
 | Description                              | Key Map   |
 | ---------------------------------------- | --------- |
-| Toggle debuger of console.               | `⌘` `5`   |
 | Switch forcuse between file and SideBar. | `⌃` `Tab` |
 
 ## ファイル内系

@@ -21,6 +21,12 @@ US配列キーボードだとショートカットキーが正常に動かない
 | ------------------- | ----------------- | --------------------- |
 | Open shourtcut view | `⌘` `k` , `⌘` `S` | openGlobalKeybindings |
 
+## Toggle系
+
+| description                       | Key Map | command id               |
+| --------------------------------- | ------- | ------------------------ |
+| Toggle SideBar                    | `⌘` `B` | toggleSidebarVisibility  |
+
 ## 画面分割系
 
 | description                       | Key Map     | command id               |
@@ -36,11 +42,11 @@ US配列キーボードだとショートカットキーが正常に動かない
 | Close all editor | `⌘` `k` , `⌘` `w` | closeAllEditors |
 
 ## サイドバー移動系
+
 | description                       | Key Map | command id               |
 | --------------------------------- | ------- | ------------------------ |
 | Go to Active file name in SideBar | `⌘` `;` | showActiveFileInExplorer |
 | Focus into SideBar                | `⌘` `0` | focusSideBar             |
-| Toggle SideBar                    | `⌘` `B` | toggleSidebarVisibility  |
 | Open File in SideBar              | `Space` | openFilePreserveFocus    |
 
 ## ターミナル系
@@ -53,3 +59,9 @@ US配列キーボードだとショートカットキーが正常に動かない
 | --------------------- | ----------------- | ---------- |
 | Open with Live Server | `⌘` `n` , `⌘` `o` | goOnline   |
 | Stop with Live Server | `⌘` `n` , `⌘` `c` | goOffline  |
+
+## テーマ
+
+| description  | Key Map           | command id |
+| ------------ | ----------------- | ---------- |
+| Switch theme | `⌘` `k` , `⌘` `t` |            |

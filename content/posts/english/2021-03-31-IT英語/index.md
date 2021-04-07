@@ -17,9 +17,17 @@ ITドキュメントでよく目にする英単語をまとめました。
 | guarantee   | I guarantee you won't regret it.         |
 | consistency | There is no consistency in his argument. |
 
+## GitHub系
+
+| Site                                                         | Word        |
+| ------------------------------------------------------------ | ----------- |
+| [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet) | Besides     |
+|                                                              | identifiers |
+|                                                              | statements  |
+|                                                              | enclosing   |
 
 ## 参考になるREADME
 
-| Type        | Site                                  |
-| ----------- | ---------------------------------------- |
-| CSS   | [Hover.css](https://github.com/IanLunn/Hover)         |
+| Type | Site                                          |
+| ---- | --------------------------------------------- |
+| CSS  | [Hover.css](https://github.com/IanLunn/Hover) |

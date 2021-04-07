@@ -21,6 +21,16 @@ tags: [ "English" ]
 
 
 
+## 不定詞
+
+| Word        | Example                                           |
+| ----------- | ------------------------------------------------- |
+| in order to | I'm studying French in order to communicate them. |
+| so as to    | I'm studying French so as to communicate them.    |
+| to have p.p | She is said to have been beautiful when young.    |
+| to be p.p   | I like to  be praised by my father.                                                  |
+
+
 ## 比較
 
 | Word                       | Example                                               |
