@@ -25,9 +25,6 @@ ITドキュメントでよく目にする英単語をまとめました。
 |                                                              | identifiers |
 |                                                              | statements  |
 |                                                              | enclosing   |
+| [Hover.css](https://github.com/IanLunn/Hover)                | Assuming    |
 
 ## 参考になるREADME
-
-| Type | Site                                          |
-| ---- | --------------------------------------------- |
-| CSS  | [Hover.css](https://github.com/IanLunn/Hover) |
