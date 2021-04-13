@@ -26,5 +26,6 @@ ITドキュメントでよく目にする英単語をまとめました。
 |                                                              | statements  |
 |                                                              | enclosing   |
 | [Hover.css](https://github.com/IanLunn/Hover)                | Assuming    |
+| [Animate.css](https://animate.style/)                        |             |
 
 ## 参考になるREADME
