@@ -55,8 +55,9 @@ tags: [ "English" ]
 | no longer                  | I can no longer wait.                                 |
 
 
+## 仮定法
 
-## 仮定法(現在)
+### 仮定法(現在)
 
 | Word                 | Example                                                  |
 | -------------------- | -------------------------------------------------------- |
@@ -70,13 +71,12 @@ tags: [ "English" ]
 | It is about time S V | It is about time you went to bed.                        |
 | It is high time S V  | It is high time you went to bed.                         |
 | ~ as if sv           | He talks as if he were a grown-up.                       |
-| If S should V        | If it should snow tomorrow, the game would be postponed. |
 | If it were not for   | If it were not for your help, I couldn't succeed.        |
 | Without              | Without your help, I couldn't succeed.                   |
 | But for              | But for your help, I couldn't succeed                    |
 
 
-## 仮定法(過去)
+### 仮定法(過去)
 
 | Word                   | Example                                                         |
 | ---------------------- | --------------------------------------------------------------- |
@@ -86,19 +86,61 @@ tags: [ "English" ]
 | I wish                 | I wish I had bought the ticket.                                 |
 | If only                | If only I had bought the ticket.                                |
 | ~ as if sv             | He looked as if he had seen a ghost.                            |
-| If it had not been for | If it had not been for your help, I couldn't succeed            |
+| If it had not been for | If it had not been for your help, I couldn't have succeeded.    |
 
 
-## 仮定法(未来、実現する可能性が低い)
+### 仮定法(未来、実現する可能性が低い, 完全に妄想!ありえないこと!)
 
 | Word             | Example                                                      |
 | ---------------- | ------------------------------------------------------------ |
 | If S were to do, | If the sun were to rise in the west, I would not betray you. |
 
 
-## 仮定法(命令文、直接法、実現する可能性が高い)
+### 仮定法未来 If S should V (命令文, 妄想じゃないよ、やってよ！ってこと)
 
-| Word           | Example                                                 |
-| -------------- | ------------------------------------------------------- |
-| If S should V, | If anyone should visit me, tell them I'll be back soon. |
-|                | If you should be late again, you will lose your job.    |
+| Word           | Example                                                  |
+| -------------- | -------------------------------------------------------- |
+| If S should V, | If anyone should visit me, tell them I'll be back soon.  |
+
+### 仮定法未来 If S should V 仮定法(直接法, 妄想じゃないよ、〜になるよってこと)
+
+| Word           | Example                                              |
+| -------------- | ---------------------------------------------------- |
+| If S should V, | If you should be late again, you will lose your job. |
+
+### 仮定法未来 If S should V 仮定法(通常の仮定法, ~するのになぁ。)
+
+| Word           | Example                                                  |
+| -------------- | -------------------------------------------------------- |
+| If S should V, | If it should snow tomorrow, the game would be postponed. |
+
+
+### 仮定法倒置
+| before                                   | after                                 |
+| ---------------------------------------- | ------------------------------------- |
+| If S were not for ~, S would V           | Were S not for ~, S would V           |
+| If S were to V ~, S would V              | Were S to V ~, S would V              |
+| If it had not been for ~, S would have V | Had it not been for ~, S would have V |
+| If S should V, V ~                       | Should S V, V ~                       |
+| If S should V, S V ~                     | Should S V, S V ~                     |
+| If S should V, S would V ~               | Should S V, S would V ~               |
+
+### if節の代用
+| Word      | Example                                                  |
+| --------- | -------------------------------------------------------- |
+| suppose   | Suppose you were in my place, what would you do?         |
+| otherwise | Work hard; otherwise you would fail.                     |
+| To hear   | To hear him speak, you would take him for a British man. |
+| A noun    | A wise man would not do such a thing.                    |
+
+### 提案・命令・要求のThat節(仮定法現在)
+| Word      | Example                                       |
+| --------- | --------------------------------------------- |
+| suggest   | He suggested that his son keep early hours.   |
+| propose   | He proposed that his son keep early hours.    |
+| recommend | He recommended that his son keep early hours. |
+| order     | He ordered that his son keep early hours.     |
+| insist    | He insisted that his son keep early hours.    |
+| demand    | He demanded that his son keep early hours.    |
+| request   | He requested that his son keep early hours.   |
+| require   | He requireed that his son keep early hours.   |
