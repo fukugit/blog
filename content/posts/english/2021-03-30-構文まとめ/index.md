@@ -78,15 +78,18 @@ tags: [ "English" ]
 
 ### 仮定法(過去)
 
-| Word                   | Example                                                         |
-| ---------------------- | --------------------------------------------------------------- |
-|                        | If you had accepted our offer, you would be happy now.          |
-|                        | If she had not left there yesterday, she would not be here now. |
-|                        | If he had taken our advice then, he would be happier now.       |
-| I wish                 | I wish I had bought the ticket.                                 |
-| If only                | If only I had bought the ticket.                                |
-| ~ as if sv             | He looked as if he had seen a ghost.                            |
-| If it had not been for | If it had not been for your help, I couldn't have succeeded.    |
+| Word                   | Example                                                        |
+| ---------------------- | -------------------------------------------------------------- |
+|                        | If you had accepted our offer, you would have been happy.      |
+|                        | If you had accepted our offer, you would be happy now.         |
+|                        | If he had taken our advice, he would have been happier.        |
+|                        | If he had taken our advice then, he would be happier now.      |
+|                        | If he had taken them advice, he would not have been happier.   |
+|                        | If he had taken them advice then, he would not be happier now. |
+| I wish                 | I wish I had bought the ticket.                                |
+| If only                | If only I had bought the ticket.                               |
+| ~ as if sv             | He looked as if he had seen a ghost.                           |
+| If it had not been for | If it had not been for your help, I couldn't have succeeded.   |
 
 
 ### 仮定法(未来、実現する可能性が低い, 完全に妄想!ありえないこと!)
@@ -116,14 +119,14 @@ tags: [ "English" ]
 
 
 ### 仮定法倒置
-| before                                   | after                                 |
-| ---------------------------------------- | ------------------------------------- |
-| If S were not for ~, S would V           | Were S not for ~, S would V           |
-| If S were to V ~, S would V              | Were S to V ~, S would V              |
-| If it had not been for ~, S would have V | Had it not been for ~, S would have V |
-| If S should V, V ~                       | Should S V, V ~                       |
-| If S should V, S V ~                     | Should S V, S V ~                     |
-| If S should V, S would V ~               | Should S V, S would V ~               |
+| before                                     | after                                   |
+| ------------------------------------------ | --------------------------------------- |
+| If S were not for ~, S would V             | Were S not for ~, S would V             |
+| If S were to V ~, S would V                | Were S to V ~, S would V                |
+| If it had not been for ~, S would have p.p | Had it not been for ~, S would have p.p |
+| If S should V, V ~                         | Should S V, V ~                         |
+| If S should V, S V ~                       | Should S V, S V ~                       |
+| If S should V, S would V ~                 | Should S V, S would V ~                 |
 
 ### if節の代用
 | Word      | Example                                                  |
