@@ -10,15 +10,40 @@ tags: [ "English" ]
 
 <!--more-->
 
-## 受動態
+## 助動詞（推量）
+| Word   | Example            |
+| ------ | ------------------ |
+| should | He should be sick. |
+| may    | He may be sick.    |
+| might  | He might be sick.  |
+| must   | He must be sick.   |
+| can't  | He can't be sick.  |
 
+## 助動詞(過去の予想)
+| Word           | Example                            |
+| -------------- | ---------------------------------- |
+| may have p.p   | He may have been sick yesterday.   |
+| must habe p.p  | He must have been sick yesterday.  |
+| must've p.p    | He must've been sick yesterday.    |
+| can't have p.p | He can't have been sick yesterday. |
+
+## 助動詞(過去のイヤミ)
+| Word                | Example                                       |
+| ------------------- | --------------------------------------------- |
+| should have p.p     | I should have cleaned my room yesterday.      |
+| should've p.p       | I should've cleaned my room yesterday.   |
+| should not have p.p | I should not have cleaned my room yeasterday. |
+| ought to have p.p   | I ought to have cleaned my room yesterday.    |
+| need not have p.p   | I need not have cleaned my room yesterday.    |
+
+
+## 受動態
 | Word          | Example                                |
 | ------------- | -------------------------------------- |
 | will be p.p   | A full moon will be seen this evening. |
 | have been p.p | My bag has been stolen.                |
 | be being p.p  | The brige is being constructed.        |
 | be p.p to v   | I was made to finish the work.         |
-
 
 
 ## 不定詞

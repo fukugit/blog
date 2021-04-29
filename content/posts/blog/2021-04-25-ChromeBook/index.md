@@ -4,7 +4,6 @@ date: 2021-04-25T00:21:50+09:00
 draft: false
 category: blog
 tags: [ "つぶやき" ]
-thumbnail: "./posts/blog/2021-04-25-ChromeBook/img/1.jpg"
 ---
 コロナで在宅ワークになって何と１年以上を経過。自宅にいる時間が長くなったのでChromeBookを購入しました。  
 <!--more-->
