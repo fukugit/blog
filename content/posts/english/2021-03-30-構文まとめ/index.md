@@ -10,7 +10,8 @@ tags: [ "English" ]
 
 <!--more-->
 
-## 助動詞（推量）
+## 助動詞
+### 助動詞（推量）
 | Word   | Example            |
 | ------ | ------------------ |
 | should | He should be sick. |
@@ -19,7 +20,7 @@ tags: [ "English" ]
 | must   | He must be sick.   |
 | can't  | He can't be sick.  |
 
-## 助動詞(過去の予想)
+### 助動詞(過去の予想)
 | Word           | Example                            |
 | -------------- | ---------------------------------- |
 | may have p.p   | He may have been sick yesterday.   |
@@ -27,7 +28,7 @@ tags: [ "English" ]
 | must've p.p    | He must've been sick yesterday.    |
 | can't have p.p | He can't have been sick yesterday. |
 
-## 助動詞(過去のイヤミ)
+### 助動詞(過去のイヤミ)
 | Word                | Example                                       |
 | ------------------- | --------------------------------------------- |
 | should have p.p     | I should have cleaned my room yesterday.      |
@@ -36,6 +37,19 @@ tags: [ "English" ]
 | ought to have p.p   | I ought to have cleaned my room yesterday.    |
 | need not have p.p   | I need not have cleaned my room yesterday.    |
 
+### 助動詞の慣用表現
+| Word                   | %   | Example                                                         |
+| ---------------------- | --- | --------------------------------------------------------------- |
+| may well               | 70% | You may well get angry with him                                 |
+|                        |     | It may well rain tomorrow.                                      |
+| may as well            | 51% | I may as well walk.                                             |
+| might as well          | 51% | I might as well walk.                                           |
+| might as well ~ as ... |     | You might as well throw money into the river as lend it to him. |
+| had better             |     | You had better see the doctor.                                  |
+| had not better         |     | You had not better see the doctor.                              |
+| cannot ~ too...        |     | You cannot be too careful when you drive.                       |
+| need                   |     | You need not go there.                                          |
+|                        |     | You need to study English.                                      |
 
 ## 受動態
 | Word          | Example                                |
@@ -48,12 +62,23 @@ tags: [ "English" ]
 
 ## 不定詞
 
-| Word        | Example                                           |
-| ----------- | ------------------------------------------------- |
-| in order to | I'm studying French in order to communicate them. |
-| so as to    | I'm studying French so as to communicate them.    |
-| to have p.p | She is said to have been beautiful when young.    |
-| to be p.p   | I like to  be praised by my father.               |
+## 不定詞構文
+| Word         | Example                                           |
+| ------------ | ------------------------------------------------- |
+| in order to  | I'm studying French in order to communicate them. |
+| so as to     | I'm studying French so as to communicate them.    |
+| to have p.p  | She is said to have been beautiful when young.    |
+| to be p.p    | I like to  be praised by my father.               |
+| be to        | They are to visit japan.                          |
+| be to be p.p | They are to be married.                           |
+
+## ネガティブな不定詞（３つだけ）
+| Word        | Example                 |
+| ----------- | ----------------------- |
+| hasitate to | I hasitate to ask him.  |
+| refuse to   | I refuse to go there.   |
+| fail to     | I fail to go back home. |
+
 
 
 ## 比較
@@ -148,6 +173,8 @@ tags: [ "English" ]
 | ------------------------------------------ | --------------------------------------- |
 | If S were not for ~, S would V             | Were S not for ~, S would V             |
 | If S were to V ~, S would V                | Were S to V ~, S would V                |
+| If S had p.p ~, S would have p.p           | Had S p.p ~, S would have p.p           |
+| If S had p.p ~, S would V                  | Had S p.p ~, S would V                  |
 | If it had not been for ~, S would have p.p | Had it not been for ~, S would have p.p |
 | If S should V, V ~                         | Should S V, V ~                         |
 | If S should V, S V ~                       | Should S V, S V ~                       |
