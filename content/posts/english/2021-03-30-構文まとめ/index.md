@@ -62,7 +62,18 @@ tags: [ "English" ]
 
 ## 不定詞
 
-## 不定詞構文
+### VO関係 
+| Word   | Example                       |
+| ------ | ----------------------------- |
+| O to V | I have a friend to help.      |
+|        | I have a friend to help with. |
+
+### SV関係 
+| Word     | Example                     |
+| -------- | --------------------------- |
+| S to V O | I have a friend to help me. |
+
+### 不定詞構文
 | Word         | Example                                           |
 | ------------ | ------------------------------------------------- |
 | in order to  | I'm studying French in order to communicate them. |
@@ -72,7 +83,26 @@ tags: [ "English" ]
 | be to        | They are to visit japan.                          |
 | be to be p.p | They are to be married.                           |
 
-## ネガティブな不定詞（３つだけ）
+### tell型不定詞（とその他）
+| Word     | usage             | Example                                    |
+| -------- | ----------------- | ------------------------------------------ |
+| tell     | tell O of ~       | I tell you of being over the exam.         |
+|          | tell O that ~     | I tell you that the exam was over.         |
+|          | tell O to ~       | I tell you to have been over the exam.     |
+| remind   | remind O of ~     | I remind you of being over the exam.       |
+|          | remind O that ~   | I remind you that the exam was over.       |
+|          | remind O to ~     | I remind you to have been over the exam.   |
+| convince | convince O of ~   | I convince you of being over the exam.     |
+|          | convince O that ~ | I convince you that the exam was over.     |
+|          | convince O to ~   | I convince you to have been over the exam. |
+| presuade | presuade O of ~   | I presuade you of being over the exam.     |
+|          | presuade O that ~ | I presuade you that the exam was over.     |
+|          | presuade O to ~   | I presuade you to have been over the exam. |
+| warn     | warn O of ~       | I warn you of being over the exam.         |
+|          | warn O that ~     | I warn you that the exam was over.         |
+|          | warn O to ~       | I warn you to have been over the exam.     |
+
+### ネガティブな不定詞（３つだけ）
 | Word        | Example                 |
 | ----------- | ----------------------- |
 | hasitate to | I hasitate to ask him.  |
