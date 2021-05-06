@@ -83,6 +83,15 @@ tags: [ "English" ]
 | be to        | They are to visit japan.                          |
 | be to be p.p | They are to be married.                           |
 
+### so ~ as to / so as to の違い一覧
+| Sort     | Separated      | Not Separated |
+| -------- | -------------- | ------------- |
+| so as to | so ~ as to ... | so as to      |
+|          |                | in order to   |
+| so that  | so ~ that ...  | so that       |
+|          |                | in order that |
+
+
 ### tell型不定詞（とその他）
 | Word     | usage             | Example                                    |
 | -------- | ----------------- | ------------------------------------------ |
@@ -95,9 +104,9 @@ tags: [ "English" ]
 | convince | convince O of ~   | I convince you of being over the exam.     |
 |          | convince O that ~ | I convince you that the exam was over.     |
 |          | convince O to ~   | I convince you to have been over the exam. |
-| presuade | presuade O of ~   | I presuade you of being over the exam.     |
-|          | presuade O that ~ | I presuade you that the exam was over.     |
-|          | presuade O to ~   | I presuade you to have been over the exam. |
+| persuade | persuade O of ~   | I persuade you of being over the exam.     |
+|          | persuade O that ~ | I persuade you that the exam was over.     |
+|          | persuade O to ~   | I persuade you to have been over the exam. |
 | warn     | warn O of ~       | I warn you of being over the exam.         |
 |          | warn O that ~     | I warn you that the exam was over.         |
 |          | warn O to ~       | I warn you to have been over the exam.     |
@@ -109,6 +118,45 @@ tags: [ "English" ]
 | refuse to   | I refuse to go there.   |
 | fail to     | I fail to go back home. |
 
+
+## 動名詞
+| Word       | Example                                  |
+| ---------- | ---------------------------------------- |
+| Not ~ing   | I was frustrated at not finishing a job. |
+| S ~ing     | I don't like her speaking ill of others. |
+| having p.p | I regret having been lazy at school.     |
+| being p.p  | I don't like being treated like a child. |
+
+### 反復
+| Word       | Example                       |
+| ---------- | ----------------------------- |
+| practice   | I practice playing the piano. |
+| enjoy      |                               |
+| be used to |                               |
+| consider   |                               |
+
+### 中断
+| Word    | Example         |
+| ------- | --------------- |
+| stop    | I stop smoking. |
+| quit    |                 |
+| give up |                 |
+| finish  |                 |
+
+### 逃避
+| Word          | Example                    |
+| ------------- | -------------------------- |
+| miss          | I miss watching the movie. |
+| avoid         |                            |
+| escap         |                            |
+| help          |                            |
+| put off       |                            |
+| call off      |                            |
+| postpone      |                            |
+| object to     |                            |
+| be opposed to |                            |
+| deny          |                            |
+| resist        |                            |
 
 
 ## 比較
@@ -139,37 +187,37 @@ tags: [ "English" ]
 
 ### 仮定法(現在)
 
-| Word                 | Example                                                  |
-| -------------------- | -------------------------------------------------------- |
-|                      | If I were you, I would not work in the company.          |
-|                      | We wouldn't have any money, if we didn't work.           |
-| I wish               | I wish you had a date with me.                           |
-|                      | I wish She would come to the party tomorrow.             |
-| If only              | If only you had a date with me.                          |
-|                      | If only She would come to the party tomorrow.            |
-| It is time S V       | It is time you went to bed.                              |
-| It is about time S V | It is about time you went to bed.                        |
-| It is high time S V  | It is high time you went to bed.                         |
-| ~ as if sv           | He talks as if he were a grown-up.                       |
-| If it were not for   | If it were not for your help, I couldn't succeed.        |
-| Without              | Without your help, I couldn't succeed.                   |
-| But for              | But for your help, I couldn't succeed                    |
+| Word                  | Example                                           |
+| --------------------- | ------------------------------------------------- |
+| If S p.t ~, S would V | If I were you, I would not work in the company.   |
+| S would V, if S p.t ~ | We wouldn't have any money, if we didn't work.    |
+| I wish                | I wish you had a date with me.                    |
+|                       | I wish She would come to the party tomorrow.      |
+| If only               | If only you had a date with me.                   |
+|                       | If only She would come to the party tomorrow.     |
+| It is time S V        | It is time you went to bed.                       |
+| It is about time S V  | It is about time you went to bed.                 |
+| It is high time S V   | It is high time you went to bed.                  |
+| ~ as if sv            | He talks as if he were a grown-up.                |
+| If it were not for    | If it were not for your help, I couldn't succeed. |
+| Without               | Without your help, I couldn't succeed.            |
+| But for               | But for your help, I couldn't succeed             |
 
 
 ### 仮定法(過去)
 
-| Word                   | Example                                                        |
-| ---------------------- | -------------------------------------------------------------- |
-|                        | If you had accepted our offer, you would have been happy.      |
-|                        | If you had accepted our offer, you would be happy now.         |
-|                        | If he had taken our advice, he would have been happier.        |
-|                        | If he had taken our advice then, he would be happier now.      |
-|                        | If he had taken them advice, he would not have been happier.   |
-|                        | If he had taken them advice then, he would not be happier now. |
-| I wish                 | I wish I had bought the ticket.                                |
-| If only                | If only I had bought the ticket.                               |
-| ~ as if sv             | He looked as if he had seen a ghost.                           |
-| If it had not been for | If it had not been for your help, I couldn't have succeeded.   |
+| Word                                      | Example                                                        |
+| ----------------------------------------- | -------------------------------------------------------------- |
+| If S had p.p ~, S would have p.p          | If you had accepted our offer, you would have been happy.      |
+| If S had p.p ~, S would V                 | If you had accepted our offer, you would be happy now.         |
+| If S had p.p ~, S would have p.p          | If he had taken our advice, he would have been happier.        |
+| If S had p.p ~, S would V                 | If he had taken our advice then, he would be happier now.      |
+| If S had p.p ~, S would not have p.p er ~ | If he had taken them advice, he would not have been happier.   |
+| If S had p.p ~, S would not V er ~        | If he had taken them advice then, he would not be happier now. |
+| I wish                                    | I wish I had bought the ticket.                                |
+| If only                                   | If only I had bought the ticket.                               |
+| ~ as if sv                                | He looked as if he had seen a ghost.                           |
+| If it had not been for                    | If it had not been for your help, I couldn't have succeeded.   |
 
 
 ### 仮定法(未来、実現する可能性が低い, 完全に妄想!ありえないこと!)
