@@ -158,6 +158,13 @@ tags: [ "English" ]
 | deny          |                            |
 | resist        |                            |
 
+## 受動態、不定詞、動名詞 用法の一覧
+|     | 主語       | 否定               | 過去            | 進行形          | 受動態 | 助動詞 |
+| --- | -------- | ---------------- | ------------- | ------------ | --- | --- |
+| 受動態 | S be p.p | Nothing S be p.p | have been p.p | be being p.p | ☓   | will be p.p    |
+| 不定詞 | for S to V    | not to V      | to have p.p        | ☓     | to be p.p    |  ☓   |
+| 動名詞 | S(her/his) ~ing     | Not ~ing    |  having p.p    | ☓  | being p.p    | ☓    |
+
 
 ## 比較
 
