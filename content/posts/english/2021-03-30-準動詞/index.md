@@ -17,6 +17,14 @@ tags: [ "English" ]
 | be being p.p  | The brige is being constructed.        |
 | be p.p to v   | I was made to finish the work.         |
 
+### 知覚・使役Vを受動態にする方法
+| Before                  | After                    |
+| ----------------------- | ------------------------ |
+| They heard him sing.    | He was heard to sing.    |
+| They heard him singing. | He was heard singing.    |
+| They made me work hard. | I was made to work hard. |
+
+
 
 ## 不定詞
 
