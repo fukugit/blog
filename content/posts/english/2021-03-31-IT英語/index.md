@@ -19,13 +19,18 @@ ITドキュメントでよく目にする英単語をまとめました。
 
 ## GitHub系
 
-| Site                                                         | Word        |
-| ------------------------------------------------------------ | ----------- |
-| [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet) | Besides     |
-|                                                              | identifiers |
-|                                                              | statements  |
-|                                                              | enclosing   |
-| [Hover.css](https://github.com/IanLunn/Hover)                | Assuming    |
-| [Animate.css](https://animate.style/)                        |             |
+| Site                                                                                                                      | Word        |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)                                                              | Besides     |
+|                                                                                                                           | identifiers |
+|                                                                                                                           | statements  |
+|                                                                                                                           | enclosing   |
+| [Hover.css](https://github.com/IanLunn/Hover)                                                                             | Assuming    |
+| [Animate.css](https://animate.style/)                                                                                     |             |
+| [ListUtils](https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/ListUtils.html) | subtract    |
+|                                                                                                                           | immutable   |
+|                                                                                                                           | specified   |
+|                                                                                                                           | demand      |
+
 
 ## 参考になるREADME
