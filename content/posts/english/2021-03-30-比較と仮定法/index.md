@@ -57,18 +57,18 @@ tags: [ "English" ]
 
 ### 仮定法(過去)
 
-| Word                                      | Example                                                        |
-| ----------------------------------------- | -------------------------------------------------------------- |
-| If S had p.p ~, S would have p.p          | If you had accepted our offer, you would have been happy.      |
-| If S had p.p ~, S would V                 | If you had accepted our offer, you would be happy now.         |
-| If S had p.p ~, S would have p.p          | If he had taken our advice, he would have been happier.        |
-| If S had p.p ~, S would V                 | If he had taken our advice then, he would be happier now.      |
-| If S had p.p ~, S would not have p.p er ~ | If he had taken them advice, he would not have been happier.   |
-| If S had p.p ~, S would not V er ~        | If he had taken them advice then, he would not be happier now. |
-| I wish                                    | I wish I had bought the ticket.                                |
-| If only                                   | If only I had bought the ticket.                               |
-| ~ as if sv                                | He looked as if he had seen a ghost.                           |
-| If it had not been for                    | If it had not been for your help, I couldn't have succeeded.   |
+| Word                                 | Example                                                        |
+| ------------------------------------ | -------------------------------------------------------------- |
+| If S had p.p ~, S would have p.p     | If you had accepted our offer, you would have been happy.      |
+|                                      | If he had taken our advice, he would have been happier.        |
+| If S had p.p ~, S would V            | If you had accepted our offer, you would be happy now.         |
+|                                      | If he had taken our advice then, he would be happier now.      |
+| If S had p.p ~, S would not have p.p | If he had taken them advice, he would not have been happier.   |
+| If S had p.p ~, S would not V        | If he had taken them advice then, he would not be happier now. |
+| I wish                               | I wish I had bought the ticket.                                |
+| If only                              | If only I had bought the ticket.                               |
+| ~ as if sv                           | He looked as if he had seen a ghost.                           |
+| If it had not been for               | If it had not been for your help, I couldn't have succeeded.   |
 
 
 ### 仮定法(未来、実現する可能性が低い, 完全に妄想!ありえないこと!)

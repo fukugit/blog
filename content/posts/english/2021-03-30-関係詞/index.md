@@ -33,6 +33,7 @@ tags: [ "English" ]
 |                | The apart that I live in is the oldest in the town.   |
 |                | The apart I live in is the oldest in the town.        |
 |                | The apart in which I live is the oldest in the town.  |
+|                | The apart where I live is the oldest in the town.     |
 
 ## 関係副詞（完全）, 先行詞有り
 | Word            | Example                                             |
