@@ -39,18 +39,18 @@ tags: [ "English" ]
 | Word            | Example                                             |
 | --------------- | --------------------------------------------------- |
 | ~ (where) S V ~ | This hospital where my aunt works.                  |
-|                 | This is where my aunt works.                        |
 | ~ (when) S V ~  | There was a time when dinosaurs lived on the earth. |
-|                 | There was when dinosaurs lived on the earth.        |
 | ~ (why) S V ~   | Tell me the reason why you look so happy today.     |
-|                 | Tell me why you look so happy today.                |
+| ~ (how) S V ~   | That's the way he succeeded in business.            |
+|                 | That's the way in which he succeeded in business.   |
 
 ## 関係副詞（完全）, 先行詞無し
-| Word          | Example                                           |
-| ------------- | ------------------------------------------------- |
-| ~ (how) S V ~ | That's how he succeeded in business.              |
-|               | That's the way he succeeded in business.          |
-|               | That's the way in which he succeeded in business. |
+| Word            | Example                                      |
+| --------------- | -------------------------------------------- |
+| ~ (where) S V ~ | This is where my aunt works.                 |
+| ~ (when) S V ~  | There was when dinosaurs lived on the earth. |
+| ~ (why) S V ~   | Tell me why you look so happy today.         |
+| ~ (how) S V ~   | That's how he succeeded in business.         |
 
 ## 名詞節を作る関係代名詞(what)
 | Word | Example                                            | Note |
