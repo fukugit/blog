@@ -27,10 +27,11 @@ ITドキュメントでよく目にする英単語をまとめました。
 |                                                                                                                           | enclosing   |
 | [Hover.css](https://github.com/IanLunn/Hover)                                                                             | Assuming    |
 | [Animate.css](https://animate.style/)                                                                                     |             |
+| [commons-lang top page](https://commons.apache.org/proper/commons-lang/)                                                  |             |
 | [ListUtils](https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/ListUtils.html) | subtract    |
 |                                                                                                                           | immutable   |
 |                                                                                                                           | specified   |
 |                                                                                                                           | demand      |
-
+| [StringUtils](https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html)                             |             |
 
 ## 参考になるREADME
