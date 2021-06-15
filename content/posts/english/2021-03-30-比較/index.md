@@ -68,3 +68,15 @@ tags: [ "English" ]
 | about twice as ~ as ...  | ほぼ同じ | The tree is about twice as long as that one.  |
 | nearly twice as ~ as ... | ほぼ同じ | The tree is nearly twice as long as that one. |
 
+### 比較の省略
+| before             | after       |
+| ------------------ | ----------- |
+| as ~ as A          | as ~        |
+| ~er(more) ~ than A | ~er(more) ~ |
+
+#### 省略例
+| Word                  | how to translate                | translation |
+| --------------------- | ------------------------------- | ----------- |
+| It couldn't be better | It couldn't be better than this | 絶好調         |
+| Never better          | Never better than this          | 絶好調         |
+| I couldn't agree more | I couldn't agree more than this | 大賛成         |
