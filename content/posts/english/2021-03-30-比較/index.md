@@ -80,3 +80,19 @@ tags: [ "English" ]
 | It couldn't be better | It couldn't be better than this | 絶好調         |
 | Never better          | Never better than this          | 絶好調         |
 | I couldn't agree more | I couldn't agree more than this | 大賛成         |
+
+### less
+less == not
+
+| Word | Example                              |
+| ---- | ------------------------------------ |
+| less | She is less happy than what she was. |
+
+### very, much 仲が悪い
+| usage | very          | much          |
+| ----- | ------------- | ------------- |
+| 原級    | very good     | x             |
+| 比較    | x             | much better   |
+| 原級    | x             | much the best |
+|       | the very best | x             |
+
