@@ -84,8 +84,11 @@ What と Howの違いに気をつけること
 | where | どこで~か       | I don't know where you go today.        |
 | why   | なぜ~か        | I don't know why he didn't come here.   |
 | who   | だれが（を）~か    | I don't know who broke the window.      |
+|       |             | I don't know who you want to invite.    |
 | which | どちらが（を）~か   | I don't know which you should chose it. |
+|       |             | I don't know which is good for it.      |
 | what  | 何が（を）~か     | I don't know what you want to do.       |
+|       |             | I don't know what change your attitude. |
 
 ### 疑問詞 + to 不定詞
 すべてshouldで訳す。  
@@ -170,7 +173,7 @@ What ... for?
 | What is more             | さらによいことに           | It was sunny, and what is more, we won the game.                          |
 | What is worse            | さらに悪いことに           | It was cold, and what is worse, it began to rain.                         |
 | What is more important   | さらに重要なことに          | We will have test, and what is more important, we need to be interviewed. |
-| What little money        | なけなしのお金            | My father gave me what little money he ad saved.                          |
+| What little money        | なけなしのお金            | My father gave me what little money he have saved.                          |
 | A is to B what C is to D | AとBの関係はCとDとの関係と同じだ | It is said that rice is to Asians what wheat is to American.              |
 
 ### 挿入
