@@ -23,9 +23,10 @@ US配列キーボードだとショートカットキーが正常に動かない
 
 ## Toggle系
 
-| description                       | Key Map | command id               |
-| --------------------------------- | ------- | ------------------------ |
-| Toggle SideBar                    | `⌘` `B` | toggleSidebarVisibility  |
+| description     | Key Map | command id              |
+| --------------- | ------- | ----------------------- |
+| Toggle SideBar  | `⌘` `B` | toggleSidebarVisibility |
+| Toggle terminal | `⌘` `j` |                         |
 
 ## 画面分割系
 
@@ -43,16 +44,19 @@ US配列キーボードだとショートカットキーが正常に動かない
 
 ## サイドバー移動系
 
-| description                       | Key Map | command id               |
-| --------------------------------- | ------- | ------------------------ |
-| Go to Active file name in SideBar | `⌘` `;` | showActiveFileInExplorer |
-| Focus into SideBar                | `⌘` `0` | focusSideBar             |
-| Open File in SideBar              | `Space` | openFilePreserveFocus    |
+| description                       | Key Map | command id                             |
+| --------------------------------- | ------- | -------------------------------------- |
+| Go to Active file name in SideBar | `⌘` `;` | showActiveFileInExplorer               |
+| Focus into SideBar                | `⌘` `0` | focusSideBar                           |
+| Focus into Editor                 | `⌘` `1` | workbench.action.focusFirstEditorGroup |
+| Open File in SideBar              | `Space` | openFilePreserveFocus                  |
 
 ## ターミナル系
-| description    | Key Map | command id    |
-| -------------- | ------- | ------------- |
-| Close Terminal | `⌃` `w` | terminal.kill |
+| description    | Key Map            | command id                          |
+| -------------- | ------------------ | ----------------------------------- |
+| Close Terminal | `⌘` `⇧` `w`        | terminal.kill                       |
+| Split Terminal | `⌘` `\`            | workbench.action.terminal.split     |
+| Move Terminal  | `⌘` `⇧` `[` or `]` | workbench.action.terminal.focusNext |
 
 ## サーバ起動系
 | description           | Key Map           | command id |
