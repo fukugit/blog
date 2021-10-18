@@ -9,6 +9,7 @@
 /* font color in navi */
 /* font color of pre. */
 /* font color in navi */
+@import https://unpkg.com/ress/dist/ress.min.css;
 body {
   background-color: #fff;
   color: #3d4141;
