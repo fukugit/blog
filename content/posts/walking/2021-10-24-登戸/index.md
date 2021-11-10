@@ -6,7 +6,7 @@ category: walking
 tags: [ "東京町歩き" ]
 thumbnail: "./posts/walking/2021-10-24-登戸/img/2.jpg"
 ---
-多摩川のそばを散策してきました。  
+多摩川のそばを散策してきました。.  
 
 <!--more-->
 
