@@ -1,7 +1,7 @@
 ---
 title: "関係詞"
 date: 2021-03-29T03:21:50+09:00
-draft: false
+draft: true
 category: english
 tags: [ "English" ]
 ---
