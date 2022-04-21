@@ -3,7 +3,7 @@ title: "鎌倉"
 date: 2018-03-21T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "関東" ]
+tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2018-03-01-鎌倉/img/1-4.jpg"
 ---
 鎌倉の写真です。  

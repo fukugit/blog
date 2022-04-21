@@ -3,7 +3,7 @@ title: "諏訪湖"
 date: 2021-11-21T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "関東" ]
+tags: [ "旅行", "長野" ]
 thumbnail: "./posts/travel/2021-11-21-諏訪湖/img/16.jpg"
 ---
 諏訪湖に行ってきました。  

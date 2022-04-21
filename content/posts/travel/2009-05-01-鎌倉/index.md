@@ -3,7 +3,7 @@ title: "鎌倉"
 date: 2009-05-01T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "関東" ]
+tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2009-05-01-鎌倉/img/17.jpg"
 ---
 鎌倉の日帰り旅行です。  

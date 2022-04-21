@@ -3,7 +3,7 @@ title: "ハワイ"
 date: 2010-10-21T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "海外" ]
+tags: [ "旅行", "ハワイ" ]
 thumbnail: "./posts/travel/2010-10-01-ハワイ/img/1-4.jpg"
 ---
 ハワイの写真です。  

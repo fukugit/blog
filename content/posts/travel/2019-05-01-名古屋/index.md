@@ -3,7 +3,7 @@ title: "名古屋"
 date: 2019-05-21T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "名古屋" ]
+tags: [ "旅行", "愛知" ]
 thumbnail: "./posts/travel/2019-05-01-名古屋/img/1-4.jpg"
 ---
 名古屋の写真です。  

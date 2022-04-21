@@ -3,7 +3,7 @@ title: "伊豆（宙）"
 date: 2021-10-15T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "関東" ]
+tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2021-10-15-伊豆/img/7.jpg"
 ---
 伊豆の「宙」に泊まってきました。  

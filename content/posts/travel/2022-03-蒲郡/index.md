@@ -3,7 +3,7 @@ title: "蒲郡"
 date: 2022-03-12T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "名古屋" ]
+tags: [ "旅行", "愛知" ]
 thumbnail: "./posts/travel/2022-03-蒲郡/img/8.jpg"
 ---
 蒲郡に行ってきました。  

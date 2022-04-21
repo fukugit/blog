@@ -3,7 +3,7 @@ title: "山梨"
 date: 2017-05-12T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "関東" ]
+tags: [ "旅行", "山梨" ]
 thumbnail: "./posts/travel/2017-05-山梨/img/8.jpg"
 ---
 山梨に行ってきました。  
