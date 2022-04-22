@@ -1,12 +1,12 @@
 ---
-title: "熱川"
-date: 2022-02-08T13:21:50+09:00
+title: "伊豆"
+date: 2017-01-08T13:21:50+09:00
 draft: false
 category: travel
 tags: [ "旅行", "静岡" ]
-thumbnail: "./posts/travel/2022-02-熱川/img/3.jpg"
+thumbnail: "./posts/travel/2017-01-伊豆/img/3.jpg"
 ---
-熱川に行ってきました。  
+伊豆に行ってきました。  
 <!--more-->
 ![](./img/1.jpg)
 ![](./img/2.jpg)
@@ -91,22 +91,3 @@ thumbnail: "./posts/travel/2022-02-熱川/img/3.jpg"
 ![](./img/81.jpg)
 ![](./img/82.jpg)
 ![](./img/83.jpg)
-![](./img/84.jpg)
-![](./img/85.jpg)
-![](./img/86.jpg)
-![](./img/87.jpg)
-![](./img/88.jpg)
-![](./img/89.jpg)
-![](./img/90.jpg)
-![](./img/91.jpg)
-![](./img/92.jpg)
-![](./img/93.jpg)
-![](./img/94.jpg)
-![](./img/95.jpg)
-![](./img/96.jpg)
-![](./img/97.jpg)
-![](./img/98.jpg)
-![](./img/99.jpg)
-![](./img/100.jpg)
-![](./img/101.jpg)
-![](./img/102.jpg)
