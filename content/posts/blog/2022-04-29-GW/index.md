@@ -4,7 +4,6 @@ date: 2022-04-29T00:21:50+09:00
 draft: false
 category: blog
 tags: [ "つぶやき" ]
-thumbnail: "./posts/blog/2022-04-29-GW/img/1.jpg"
 ---
 ゴールデンウィーク10連休の1日目です。  
 <!--more-->
