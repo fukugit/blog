@@ -4,6 +4,7 @@ date: 2022-04-30T00:21:50+09:00
 draft: false
 category: blog
 tags: [ "つぶやき" ]
+thumbnail: "./posts/blog/2022-04-30-連休/img/1.jpg"
 ---
 ゴールデンウィーク10連休の2日目です。  
 <!--more-->
