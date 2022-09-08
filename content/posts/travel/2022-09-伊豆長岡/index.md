@@ -1,12 +1,12 @@
 ---
-title: "蒲郡"
-date: 2022-03-12T13:21:50+09:00
+title: "伊豆長岡"
+date: 2022-09-06T13:21:50+09:00
 draft: false
 category: travel
-tags: [ "旅行", "愛知" ]
-thumbnail: "./posts/travel/2022-03-蒲郡/img/8.jpg"
+tags: [ "旅行", "静岡" ]
+thumbnail: "./posts/travel/2022-09-伊豆長岡/img/8.jpg"
 ---
-蒲郡に行ってきました。  
+伊豆長岡に行ってきました。  
 <!--more-->
 ![](./img/1.jpg)
 ![](./img/2.jpg)
@@ -94,14 +94,3 @@ thumbnail: "./posts/travel/2022-03-蒲郡/img/8.jpg"
 ![](./img/84.jpg)
 ![](./img/85.jpg)
 ![](./img/86.jpg)
-![](./img/87.jpg)
-![](./img/88.jpg)
-![](./img/89.jpg)
-![](./img/90.jpg)
-![](./img/91.jpg)
-![](./img/92.jpg)
-![](./img/93.jpg)
-![](./img/94.jpg)
-![](./img/95.jpg)
-![](./img/96.jpg)
-![](./img/97.jpg)
