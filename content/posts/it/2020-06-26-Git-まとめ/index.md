@@ -1,7 +1,7 @@
 ---
 title: "Gitまとめ"
 date: 2020-06-22T13:21:50+09:00
-draft: false
+draft: true
 category: git
 tags: [ "コンピューター" ]
 ---

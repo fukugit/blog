@@ -1,7 +1,7 @@
 ---
 title: "コンソールHyperの設定方法"
 date: 2020-09-29T01:21:50+09:00
-draft: false
+draft: true
 category: shell
 tags: [ "コンピューター" ]
 ---

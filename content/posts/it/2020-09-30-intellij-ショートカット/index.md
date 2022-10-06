@@ -1,7 +1,7 @@
 ---
 title: "IntelliJのショートカット一覧"
 date: 2020-09-30T01:21:50+09:00
-draft: false
+draft: true
 category: tool
 tags: [ "ショートカット" ]
 ---
