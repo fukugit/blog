@@ -1,7 +1,7 @@
 ---
 title: "在宅ワーク108日目"
 date: 2020-07-13T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

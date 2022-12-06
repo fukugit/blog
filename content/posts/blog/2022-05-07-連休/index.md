@@ -1,7 +1,7 @@
 ---
 title: "2022年のGW10連休9日目"
 date: 2022-05-07T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2022-05-07-連休/img/2.jpg"

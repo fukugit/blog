@@ -1,7 +1,7 @@
 ---
 title: "2022年のお正月"
 date: 2022-01-10T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2022-01-年末年始/img/12.jpg"

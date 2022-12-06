@@ -1,7 +1,7 @@
 ---
 title: "池袋"
 date: 2022-05-28T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2022-05-28-池袋/img/6.jpg"

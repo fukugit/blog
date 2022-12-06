@@ -1,7 +1,7 @@
 ---
 title: "広島へ"
 date: 2020-12-16T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "広島" ]
 thumbnail: "./posts/blog/2020-12-16-広島へ/img/9.jpg"

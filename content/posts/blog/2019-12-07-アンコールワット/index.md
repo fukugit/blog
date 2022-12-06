@@ -1,7 +1,7 @@
 ---
 title: "アンコールワットへ行ってきた"
 date: 2019-12-08T13:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

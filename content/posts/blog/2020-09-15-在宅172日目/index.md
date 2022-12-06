@@ -1,7 +1,7 @@
 ---
 title: "在宅172日目"
 date: 2020-09-15T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

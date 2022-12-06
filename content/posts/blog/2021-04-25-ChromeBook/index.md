@@ -1,7 +1,7 @@
 ---
 title: "ChromeBook購入"
 date: 2021-04-25T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

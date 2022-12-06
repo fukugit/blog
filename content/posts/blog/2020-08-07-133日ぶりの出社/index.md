@@ -1,7 +1,7 @@
 ---
 title: "133日ぶりの出社"
 date: 2020-08-07T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

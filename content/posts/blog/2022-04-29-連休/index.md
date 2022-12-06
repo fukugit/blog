@@ -1,7 +1,7 @@
 ---
 title: "2022年のGW10連休1日目"
 date: 2022-04-29T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2022-04-29-連休/img/1.jpg"

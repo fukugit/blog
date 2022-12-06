@@ -1,7 +1,7 @@
 ---
 title: "在宅ワーク2週間経過"
 date: 2020-04-20T23:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 ---

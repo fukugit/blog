@@ -1,7 +1,7 @@
 ---
 title: "散財"
 date: 2021-02-28T00:21:50+09:00
-draft: false
+draft: true
 category: blog
 tags: [ "つぶやき" ]
 thumbnail: "./posts/blog/2021-02-28-散財/img/2.jpg"
