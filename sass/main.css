@@ -119,16 +119,18 @@ body {
                   width: 100%; } }
             body .container .list .summary-list .summary .summary-contant .sentence {
               width: 100%; }
-      body .container .list .pager-layout {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        bottom: 10px; }
-      body .container .list .pager {
-        width: auto; }
-        body .container .list .pager a {
-          text-decoration: solid;
-          color: #17223b; }
+      body .container .list ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0; }
+        body .container .list ul.pagination li.active {
+          background: #ff6768; }
+        body .container .list ul.pagination li {
+          display: inline-block; }
+          body .container .list ul.pagination li a {
+            float: left;
+            padding: 8px 16px;
+            border: 1px solid #cfcfcf; }
     body .container .main {
       background-color: #ffffff;
       width: 800px;
