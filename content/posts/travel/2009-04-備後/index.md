@@ -2,7 +2,7 @@
 title: "備後"
 date: 2009-04-28T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2009年" ]
 tags: [ "旅行", "広島" ]
 thumbnail: "./posts/travel/2009-04-備後/img/1.jpg"
 ---

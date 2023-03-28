@@ -2,7 +2,7 @@
 title: "道後温泉"
 date: 2010-01-01T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2010年" ]
 tags: [ "旅行", "愛媛" ]
 thumbnail: "./posts/travel/2010-01-道後温泉/img/4.jpg"
 ---

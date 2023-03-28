@@ -2,7 +2,7 @@
 title: "三崎港"
 date: 2009-11-08T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2009年" ]
 tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2009-11-01-三崎港/img/1-10.jpg"
 ---

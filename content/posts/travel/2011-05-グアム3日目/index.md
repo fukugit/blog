@@ -2,7 +2,7 @@
 title: "グアム3日目"
 date: 2011-05-21T15:21:50+09:00
 draft: false
-category: travel
+categories: [ "2011年" ]
 tags: [ "旅行", "グアム" ]
 thumbnail: "./posts/travel/2011-05-グアム3日目/img/1-4.jpg"
 ---

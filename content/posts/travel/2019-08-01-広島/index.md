@@ -2,7 +2,7 @@
 title: "広島"
 date: 2019-08-01T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2019年" ]
 tags: [ "旅行", "広島" ]
 thumbnail: "./posts/travel/2019-08-01-広島/img/1-4.jpg"
 ---

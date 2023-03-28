@@ -2,7 +2,7 @@
 title: "沖縄"
 date: 2017-09-21T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2017年" ]
 tags: [ "旅行", "沖縄" ]
 thumbnail: "./posts/travel/2017-09-沖縄/img/7.jpg"
 ---

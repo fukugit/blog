@@ -2,7 +2,7 @@
 title: "青森"
 date: 2023-03-02T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2023年" ]
 tags: [ "旅行", "青森" ]
 thumbnail: "./posts/travel/2023-03-青森/img/7.jpg"
 ---

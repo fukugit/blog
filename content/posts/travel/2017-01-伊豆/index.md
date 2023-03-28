@@ -2,7 +2,7 @@
 title: "伊豆"
 date: 2017-01-08T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2017年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2017-01-伊豆/img/3.jpg"
 ---

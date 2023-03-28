@@ -2,7 +2,7 @@
 title: "熱海"
 date: 2012-04-21T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2012年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2012-04-01-熱海/img/1-4.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "仙台"
 date: 2015-09-21T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2015年" ]
 tags: [ "旅行", "宮城" ]
 thumbnail: "./posts/travel/2015-09-仙台/img/7.jpg"
 ---

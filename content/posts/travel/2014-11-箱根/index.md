@@ -2,7 +2,7 @@
 title: "箱根"
 date: 2014-11-12T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2014年" ]
 tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2014-11-箱根/img/8.jpg"
 ---

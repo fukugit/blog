@@ -2,7 +2,7 @@
 title: "鬼怒川"
 date: 2022-12-03T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2022年" ]
 tags: [ "旅行", "栃木" ]
 thumbnail: "./posts/travel/2022-12-鬼怒川/img/7.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "福井"
 date: 2010-08-26T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2010年" ]
 tags: [ "旅行", "福井" ]
 thumbnail: "./posts/travel/2010-08-福井/img/4.jpg"
 ---

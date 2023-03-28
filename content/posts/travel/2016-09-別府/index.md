@@ -2,7 +2,7 @@
 title: "別府"
 date: 2016-09-03T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2016年" ]
 tags: [ "旅行", "大分" ]
 thumbnail: "./posts/travel/2016-09-別府/img/7.jpg"
 ---

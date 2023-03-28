@@ -2,7 +2,7 @@
 title: "ハワイ"
 date: 2010-10-21T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2010年" ]
 tags: [ "旅行", "ハワイ" ]
 thumbnail: "./posts/travel/2010-10-01-ハワイ/img/1-4.jpg"
 ---

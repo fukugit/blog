@@ -2,7 +2,7 @@
 title: "湯河原"
 date: 2021-03-26T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2021年" ]
 tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2021-03-湯河原/img/4.jpg"
 ---

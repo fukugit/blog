@@ -2,7 +2,7 @@
 title: "伊豆長岡"
 date: 2022-09-06T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2022年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2022-09-伊豆長岡/img/8.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "福島ハワイアン"
 date: 2022-10-14T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2022年" ]
 tags: [ "旅行", "福島" ]
 thumbnail: "./posts/travel/2022-10-福島ハワイ/img/8.jpg"
 ---

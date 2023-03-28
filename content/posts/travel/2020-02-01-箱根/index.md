@@ -2,7 +2,7 @@
 title: "箱根"
 date: 2020-02-01T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2020年" ]
 tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2020-02-01-箱根/img/1-4.jpg"
 ---

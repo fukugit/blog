@@ -2,7 +2,7 @@
 title: "台湾 1日目"
 date: 2014-01-15T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2014年" ]
 tags: [ "旅行", "台湾" ]
 thumbnail: "./posts/travel/2014-01-台湾1/img/7.jpg"
 ---

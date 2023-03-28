@@ -2,7 +2,7 @@
 title: "箱根"
 date: 2010-08-26T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2010年" ]
 tags: [ "旅行", "神奈川" ]
 thumbnail: "./posts/travel/2010-12-箱根/img/4.jpg"
 ---

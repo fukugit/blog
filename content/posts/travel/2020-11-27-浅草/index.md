@@ -2,7 +2,7 @@
 title: "浅草"
 date: 2020-11-27T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2020年" ]
 tags: [ "旅行", "東京" ]
 thumbnail: "./posts/travel/2020-11-27-浅草/img/1.jpg"
 ---

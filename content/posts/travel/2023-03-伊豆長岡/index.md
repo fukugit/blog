@@ -2,7 +2,7 @@
 title: "伊豆長岡"
 date: 2023-03-25T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2023年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2023-03-伊豆長岡/img/7.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "熱川"
 date: 2022-02-08T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2022年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2022-02-熱川/img/3.jpg"
 ---

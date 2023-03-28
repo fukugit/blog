@@ -2,7 +2,7 @@
 title: "長野"
 date: 2009-04-27T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2009年" ]
 tags: [ "旅行", "長野"]
 thumbnail: "./posts/travel/2009-04-長野/img/7.jpg"
 ---

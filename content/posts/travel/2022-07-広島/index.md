@@ -2,7 +2,7 @@
 title: "広島"
 date: 2022-07-14T13:21:50+09:00
 draft: false
-category: travel
+categories: [ "2022年" ]
 tags: [ "旅行", "広島" ]
 thumbnail: "./posts/travel/2022-07-広島/img/2.jpg"
 ---
