@@ -2,7 +2,7 @@
 title: "伊豆"
 date: 2024-04-19T13:21:50+09:00
 draft: false
-categories: [ "2022年" ]
+categories: [ "2024年" ]
 tags: [ "旅行", "静岡" ]
 thumbnail: "./posts/travel/2024-04-伊豆/img/12.jpg"
 ---
