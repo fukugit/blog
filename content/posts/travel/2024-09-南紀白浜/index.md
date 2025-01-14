@@ -1,16 +1,15 @@
 ---
 title: "伊豆"
-date: 2024-04-19T13:21:50+09:00
+date: 2024-09-19T13:21:50+09:00
 draft: false
 categories: [ "2024年" ]
-tags: [ "旅行", "静岡" ]
-thumbnail: "./posts/travel/2024-04-伊豆/img/12.jpg"
+tags: [ "旅行", "和歌山" ]
+thumbnail: "./posts/travel/2024-09-南紀白浜/img/16.jpg"
 ---
-伊豆長岡に行ってきました。  
+南紀白浜に行ってきました。  
 <!--more-->
 ![](./img/1.jpg)
 ![](./img/2.jpg)
-
 ![](./img/3.jpg)
 ![](./img/4.jpg)
 ![](./img/5.jpg)
@@ -107,18 +106,3 @@ thumbnail: "./posts/travel/2024-04-伊豆/img/12.jpg"
 ![](./img/96.jpg)
 ![](./img/97.jpg)
 ![](./img/98.jpg)
-![](./img/99.jpg)
-![](./img/100.jpg)
-![](./img/101.jpg)
-![](./img/102.jpg)
-![](./img/103.jpg)
-![](./img/104.jpg)
-![](./img/105.jpg)
-![](./img/106.jpg)
-![](./img/107.jpg)
-![](./img/108.jpg)
-![](./img/109.jpg)
-![](./img/110.jpg)
-![](./img/111.jpg)
-![](./img/112.jpg)
-![](./img/113.jpg)
