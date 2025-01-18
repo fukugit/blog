@@ -1,5 +1,5 @@
 ---
-title: "伊豆"
+title: "南紀白浜"
 date: 2024-09-19T13:21:50+09:00
 draft: false
 categories: [ "2024年" ]
